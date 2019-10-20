@@ -16,8 +16,7 @@ body {
 }
 
 .Landing img {
-  height: 600px;
-
+  height:600px;
 }
 
 .Landing #leftHead {
@@ -28,14 +27,14 @@ body {
   color: #FFFFFF;
   position: center;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 370px;
   padding-top: 50px;
   text-align: center;
 }
 
-.Summary h2 {
+.Summary h1 {
   font-weight: normal;
-  line-height: 3;
+  line-height: 2.3;
 }
 
 @media (max-width: 825px) {

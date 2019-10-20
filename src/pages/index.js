@@ -10,10 +10,10 @@ const IndexPage = () => (
       <img src={rightHead} />
     </div>
     <div className="Summary">
-      <h2> developer </h2>
-      <h2> ui/ux designer </h2>
-      <h2> filmmaker </h2>
-      <h2> long-walk-on-the-beach taker </h2>
+      <h1> developer </h1>
+      <h1> ui/ux designer </h1>
+      <h1> filmmaker </h1>
+      <h1> long-walk-on-the-beach taker </h1>
     </div>
     <div id="leftHead">
       <img src={leftHead} />
