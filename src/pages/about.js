@@ -5,7 +5,7 @@ import '../layouts/about.css'
 import portrait from '../assets/me-plusme.png'
 
 const IndexPage = () => (
-  <div className="Landing">
+  <div className="Landing-about">
     <div className="row1">
       <div id="portrait">
         <img src={portrait} />

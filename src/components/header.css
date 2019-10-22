@@ -8,3 +8,8 @@
   padding: 18px;
   font-weight: 600;
 }
+
+.Header img {
+  width: 70px;
+  margin-left: 3%;
+}
