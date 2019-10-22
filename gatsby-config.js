@@ -1,5 +1,3 @@
-import site_logo from 'assets/website-logo.png'
-
 module.exports = {
   siteMetadata: {
     title: 'Max Gillespie',
