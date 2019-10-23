@@ -1,11 +1,10 @@
 .Header {
-  padding-top: 30px
+  padding-top: 10px;
 }
 
 .Header a {
   color: #CCCCCC;
   text-decoration: none;
-  padding: 18px;
   font-weight: 600;
 }
 

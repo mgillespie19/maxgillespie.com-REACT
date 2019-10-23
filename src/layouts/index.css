@@ -23,6 +23,10 @@ body {
   place-self: end;
 }
 
+.Landing #rightHead {
+  margin-top: 30px;
+}
+
 .Summary {
   color: #FFFFFF;
   position: center;
