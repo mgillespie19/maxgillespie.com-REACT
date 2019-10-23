@@ -8,6 +8,11 @@ body {
   background-color: rgba(37, 165, 101, 1);
 }
 
+.Page {
+  display:table;
+  width: 100%;
+}
+
 .Landing {
   grid-template-columns: repeat(3, auto);
   display: grid;
@@ -39,6 +44,13 @@ body {
 .Summary h1 {
   font-weight: normal;
   line-height: 2.3;
+}
+
+.Work {
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 120px;
 }
 
 @media (max-width: 825px) {

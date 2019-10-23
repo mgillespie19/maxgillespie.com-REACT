@@ -20,6 +20,13 @@ const IndexPage = () => (
         <img src={leftHead} />
       </div>
     </div>
+    <div className="Work">
+      ALL OF MY WORK IS IN HERE
+      <div className="example1">
+        Example 1
+      </div>
+
+    </div>
   </div>
 )
 
