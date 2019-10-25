@@ -5,9 +5,11 @@ import './exampleCard.css'
 const ExampleCard = ({ siteTitle, projectTitle, imageLink, description }) => (
   <div>
     <div className="Example">
-      <h1> {projectTitle} </h1>
-      <p> {description} </p>
-      <a> read more </a>
+      <div className="InnerContent">
+        <h1> {projectTitle} </h1>
+        <p> {description} </p>
+        <a> read more </a>
+      </div>
     </div>
   </div>
 )

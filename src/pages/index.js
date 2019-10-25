@@ -24,12 +24,15 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Work">
-      <ExampleCard projectTitle="Maven Machines"
-        description="Maven is a startup in Pittsburgh, Pennsylvania that \
-        makes asset tracking software for the transportation industry. I worked \
-        with Maven during the summer of 2019 as an Android Devloper; I maintained \
-        and built new features within the codebase for their app that services \
-        thousands of truck drivers and dispatchers daily." />
+      <ExampleCard
+        projectTitle="Maven Machines"
+        description="Maven is a startup in Pittsburgh, Pennsylvania that
+                    makes asset tracking software for the transportation industry.
+                    I worked with Maven during the summer of 2019 as an Android
+                    Devloper; I maintained and built new features within the
+                    codebase for their app that services thousands of truck
+                    drivers and dispatchers daily."
+      />
 
       <ExampleCard projectTitle="Grid"/>
 
