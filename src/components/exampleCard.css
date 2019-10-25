@@ -2,8 +2,13 @@
   align-items: center;
   width: 80%;
   background-color: #FFFFFF;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-bottom: 100px;
+  border-radius: 8px;
+  padding: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 4px 10px green;
+
 }
 
 .Example h1 {
