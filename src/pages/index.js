@@ -66,6 +66,9 @@ const IndexPage = () => (
         destinationPage="/personalWork"
         />
     </div>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+    </style>
   </div>
 )
 

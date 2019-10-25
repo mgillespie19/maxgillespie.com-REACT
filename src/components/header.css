@@ -6,6 +6,8 @@
   color: #CCCCCC;
   text-decoration: none;
   font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 10px;
 }
 
 .Header img {

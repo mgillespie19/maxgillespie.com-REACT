@@ -51,6 +51,9 @@ const IndexPage = () => (
       <p> subcribe to my <a href="http://youtube.com/maxgillespie"> <b>YouTube</b> </a> channel </p>
       </div>
     </div>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+    </style>
   </div>
 )
 
