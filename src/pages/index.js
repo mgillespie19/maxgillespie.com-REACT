@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import rightHead from '../assets/head-right.png'
 import leftHead from '../assets/head-left.png'
-// import mavenImg from '../assets/maven-machines.png'
+import mavenImg from '../assets/maven-machines.png'
 // import personalWorkImg from '../assets/personal-projects.png'
 // import gridImg from '../assets/grid-logo.png'
 // import myEHRImg from '../assets/myEHR-logo.png'
@@ -39,7 +39,7 @@ const IndexPage = () => (
                     codebase for their app that services thousands of truck
                     drivers and dispatchers daily."
         destinationPage="/mavenMachines"
-        // imgSrc={mavenImg}
+        imgSrc={mavenImg}
       />
 
       <ExampleCard
