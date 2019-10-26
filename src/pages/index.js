@@ -72,7 +72,7 @@ const IndexPage = () => (
                     students to develop the minimum viable patient/provider web
                     portal and mobile application for this product."
         destinationPage="/myEHR"
-        // imgSrc={myEHRImg}
+        imgSrc={myEHRImg}
       />
 
       <ExampleCard
@@ -81,7 +81,7 @@ const IndexPage = () => (
                     exclusively) which showcase smaller skills, but aren't
                     full applications"
         destinationPage="/smallProjects"
-        // imgSrc={testflightImg}
+        imgSrc={testflightImg}
       />
 
       <ExampleCard
@@ -92,7 +92,7 @@ const IndexPage = () => (
         description_p2="[Think Articles, Film Project Breakdowns, General Art,
                         personal challenges, etc.]"
         destinationPage="/personalWork"
-        // imgSrc={personalWorkImg}
+        imgSrc={personalWorkImg}
       />
     </div>
     <style>
