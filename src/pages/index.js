@@ -3,11 +3,11 @@ import Link from 'gatsby-link'
 
 import rightHead from '../assets/head-right.png'
 import leftHead from '../assets/head-left.png'
-import mavenImg from '../assets/maven-machines.png'
-import personalWorkImg from '../assets/personal-projects.png'
-import gridImg from '../assets/grid-logo.png'
-import myEHRImg from '../assets/myEHR-logo.png'
-import testflightImg from '../assets/testflight-logo.png'
+// import mavenImg from '../assets/maven-machines.png'
+// import personalWorkImg from '../assets/personal-projects.png'
+// import gridImg from '../assets/grid-logo.png'
+// import myEHRImg from '../assets/myEHR-logo.png'
+// import testflightImg from '../assets/testflight-logo.png'
 import ExampleCard from '../components/exampleCard'
 
 const IndexPage = () => (
@@ -39,7 +39,7 @@ const IndexPage = () => (
                     codebase for their app that services thousands of truck
                     drivers and dispatchers daily."
         destinationPage="/mavenMachines"
-        imgSrc={mavenImg}
+        // imgSrc={mavenImg}
       />
 
       <ExampleCard
@@ -61,7 +61,7 @@ const IndexPage = () => (
                         content on my second youtube channel, where I am
                         capturing the experience of bringing the app to life!"
         destinationPage="/grid"
-        imgSrc={gridImg}
+        // imgSrc={gridImg}
       />
 
       <ExampleCard
@@ -72,7 +72,7 @@ const IndexPage = () => (
                     students to develop the minimum viable patient/provider web
                     portal and mobile application for this product."
         destinationPage="/myEHR"
-        imgSrc={myEHRImg}
+        // imgSrc={myEHRImg}
       />
 
       <ExampleCard
@@ -81,7 +81,7 @@ const IndexPage = () => (
                     exclusively) which showcase smaller skills, but aren't
                     full applications"
         destinationPage="/smallProjects"
-        imgSrc={testflightImg}
+        // imgSrc={testflightImg}
       />
 
       <ExampleCard
@@ -92,7 +92,7 @@ const IndexPage = () => (
         description_p2="[Think Articles, Film Project Breakdowns, General Art,
                         personal challenges, etc.]"
         destinationPage="/personalWork"
-        imgSrc={personalWorkImg}
+        // imgSrc={personalWorkImg}
       />
     </div>
     <style>
