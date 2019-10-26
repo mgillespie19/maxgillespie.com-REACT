@@ -5,7 +5,7 @@ import rightHead from '../assets/head-right.png'
 import leftHead from '../assets/head-left.png'
 import mavenImg from '../assets/maven-machines.png'
 // import personalWorkImg from '../assets/personal-projects.png'
-// import gridImg from '../assets/grid-logo.png'
+import gridImg from '../assets/grid-logo.png'
 // import myEHRImg from '../assets/myEHR-logo.png'
 // import testflightImg from '../assets/testflight-logo.png'
 import ExampleCard from '../components/exampleCard'
@@ -61,7 +61,7 @@ const IndexPage = () => (
                         content on my second youtube channel, where I am
                         capturing the experience of bringing the app to life!"
         destinationPage="/grid"
-        // imgSrc={gridImg}
+        imgSrc={gridImg}
       />
 
       <ExampleCard
