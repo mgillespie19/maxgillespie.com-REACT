@@ -3,6 +3,11 @@ import Link from 'gatsby-link'
 
 import rightHead from '../assets/head-right.png'
 import leftHead from '../assets/head-left.png'
+import personalWorkImg from '../assets/personal-projects.jpg'
+import mavenImg from '../assets/maven-machines.png'
+import gridImg from '../assets/grid-logo.png'
+import myEHRImg from '../assets/myEHR-logo.png'
+import testflightImg from '../assets/testflight-logo.png'
 import ExampleCard from '../components/exampleCard'
 
 const IndexPage = () => (
@@ -34,11 +39,29 @@ const IndexPage = () => (
                     codebase for their app that services thousands of truck
                     drivers and dispatchers daily."
         destinationPage="/mavenMachines"
+        imgSrc={mavenImg}
       />
 
       <ExampleCard
         projectTitle="Grid"
+        description_p1="Grid is a personal project that I've wanted to build for
+                        a long time, and now feel qualified to build. The core
+                        mission for the product is to connect people who want to
+                        make a difference in the world with organizations that
+                        are out in the world making a difference! I have partnered
+                        with 12 students in a upper-level marketing class at
+                        Washington University in St. Louis to help me hone my
+                        vision for the product through unit testing -- they're
+                        currently helping me hone my go-to-market strategy for
+                        the product."
+        description_p2="NOTE: this product is actively under development! I post
+                        updates on the web page for it, you can follow along by
+                        periodically checking in on the web page for this project
+                        (just beyong the link below) or by checking out the
+                        content on my second youtube channel, where I am
+                        capturing the experience of bringing the app to life!"
         destinationPage="/grid"
+        imgSrc={gridImg}
       />
 
       <ExampleCard
@@ -49,6 +72,7 @@ const IndexPage = () => (
                     students to develop the minimum viable patient/provider web
                     portal and mobile application for this product."
         destinationPage="/myEHR"
+        imgSrc={myEHRImg}
       />
 
       <ExampleCard
@@ -57,14 +81,19 @@ const IndexPage = () => (
                     exclusively) which showcase smaller skills, but aren't
                     full applications"
         destinationPage="/smallProjects"
+        imgSrc={testflightImg}
       />
 
       <ExampleCard
         projectTitle="Personal Work"
-        description_p1="Art, Blog Posts, Videos that I'm passionate about and want
-                    to share"
+        description_p1="Things I make in my free time that I'm passionate about
+                        and want to share, but which don't necessarily fit into
+                        clear project buckets."
+        description_p2="[Think Articles, Film Project Breakdowns, General Art,
+                        personal challenges, etc.]"
         destinationPage="/personalWork"
-        />
+        imgSrc={personalWorkImg}
+      />
     </div>
     <style>
       @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
