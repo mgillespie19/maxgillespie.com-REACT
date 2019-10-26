@@ -9,6 +9,9 @@
   padding-bottom: 10px;
   box-shadow: 3px 4px 10px green;
   font-family: 'Titillium Web', sans-serif;
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: center;
 }
 
 .Example h1 {
