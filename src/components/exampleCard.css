@@ -32,11 +32,14 @@
 
 .InnerContent {
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .Logo {
   width: 250px;
-  padding: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .Logo img {
