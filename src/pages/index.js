@@ -12,9 +12,6 @@ import ExampleCard from '../components/exampleCard'
 
 const IndexPage = () => (
   <div className="Page">
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-    </style>
     <div  className="Landing">
       <div id="rightHead">
         <img src={rightHead} />
