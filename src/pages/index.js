@@ -29,6 +29,22 @@ const IndexPage = () => (
         <img src={leftHead} />
       </div>
     </div>
+
+    <div className="QuickPreamble">
+      <h1>
+        my work
+      </h1>
+      <p>
+        this is a collection of my work -- some of the things I'm passionate about,
+        proud to have worked on, or am otherwise excited to share.
+      </p>
+      <p>
+        if you like what you see, and are interested in working together on a project,
+        check out <Link to="/about"> <b> contact </b> </Link> in my about section,
+        or head over to <Link to="/"> <b> my contracting company </b> </Link>
+      </p>
+    </div>
+
     <div className="Work">
       <ExampleCard
         projectTitle="Maven Machines"

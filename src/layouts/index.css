@@ -54,6 +54,12 @@ body {
   font-size: 18pt;
 }
 
+.QuickPreamble {
+  padding-top: 100px;
+  width: 80%;
+  margin-left: 8%;
+}
+
 .Work {
   width: 100%;
   color: #000000;
