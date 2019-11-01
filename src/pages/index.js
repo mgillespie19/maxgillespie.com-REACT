@@ -21,7 +21,8 @@ const IndexPage = () => (
         <h1> developer </h1>
         <h1> ui/ux designer </h1>
         <h1> filmmaker </h1>
-        <h1> long-walk-on-the-beach taker </h1>
+        <h1> marketer </h1>
+        <h3> long-walk-on-the-beach taker </h3>
       </div>
 
       <div id="leftHead">
