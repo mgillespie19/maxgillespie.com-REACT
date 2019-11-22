@@ -12,17 +12,16 @@
   font-family: 'Titillium Web', sans-serif;
   grid-template-columns: repeat(2, auto);
   display: grid;
-  align-content: center;
 }
 
 .Example h1 {
   margin: 20px;
-  padding-right: 50px;
+  padding-right: 125px;
 }
 
 .Example p {
   margin: 20px;
-  padding-right: 50px;
+  padding-right: 125px;
 }
 
 .Example a {
@@ -39,7 +38,7 @@
 }
 
 .Logo {
-  width: 250px;
+  width: 200px;
   margin-left: 10%;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -54,5 +53,13 @@
 @media (max-width: 825px) {
   .Example {
     grid-template-columns: repeat(1, auto);
+  }
+
+  .Example h1 {
+    padding-right: 25px;
+  }
+
+  .Example p {
+    padding-right: 25px;
   }
 }

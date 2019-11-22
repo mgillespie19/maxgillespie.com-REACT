@@ -1,14 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-// import '../layouts/about.css'
 
-// import portrait from '../assets/me-plusme.png'
+import '../layouts/workLayout.css'
 
 const IndexPage = () => (
-  <div className="Landing-about">
-    <div className="row1">
-      <h1> Personal Work </h1>
-    </div>
+  <div className="WorkDetail">
+    <h1> Personal Work </h1>
   </div>
 )
 

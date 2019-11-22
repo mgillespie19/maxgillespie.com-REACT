@@ -47,47 +47,26 @@ const IndexPage = () => (
 
     <div className="Work">
       <ExampleCard
-        projectTitle="Maven Machines"
-        description_p1="Maven is a startup in Pittsburgh, Pennsylvania that
-                    makes asset tracking software for the transportation industry.
-                    I worked with Maven during the summer of 2019 as an Android
-                    Devloper."
-        description_p2="I maintained and built new features within the
-                    codebase for their app that services thousands of truck
-                    drivers and dispatchers daily."
+        projectTitle="Internship at Maven Machines"
+        description_p1="My work as an Android Intern during the Summer of 2019
+                        at a software startup in Pittsburgh"
         destinationPage="/mavenMachines"
         imgSrc={mavenImg}
       />
 
       <ExampleCard
         projectTitle="Grid"
-        description_p1="Grid is a personal project that I've wanted to build for
-                        a long time, and now feel qualified to build. The core
-                        mission for the product is to connect people who want to
-                        make a difference in the world with organizations that
-                        are out in the world making a difference! I have partnered
-                        with 12 students in a upper-level marketing class at
-                        Washington University in St. Louis to help me hone my
-                        vision for the product through unit testing -- they're
-                        currently helping me hone my go-to-market strategy for
-                        the product."
-        description_p2="NOTE: this product is actively under development! I post
-                        updates on the web page for it, you can follow along by
-                        periodically checking in on the web page for this project
-                        (just beyong the link below) or by checking out the
-                        content on my second youtube channel, where I am
-                        capturing the experience of bringing the app to life!"
+        description_p1="An iOS app I made to help connect people who want to make
+                        a difference in the world with organizations making a
+                        difference"
         destinationPage="/grid"
         imgSrc={gridImg}
       />
 
       <ExampleCard
         projectTitle="myEHR"
-        description_p1="Software startup with the mission of transforming the way
-                    electronic health records are transferred."
-        description_p2="I worked as the project leader with a team of 6 other
-                    students to develop the minimum viable patient/provider web
-                    portal and mobile application for this product."
+        description_p1="A class project from my junior year of college exploring
+                        the potential of blockchain in helping the healthcare system"
         destinationPage="/myEHR"
         imgSrc={myEHRImg}
       />
