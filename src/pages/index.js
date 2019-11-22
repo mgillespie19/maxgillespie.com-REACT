@@ -72,23 +72,20 @@ const IndexPage = () => (
       />
 
       <ExampleCard
+        projectTitle="Personal Work"
+        description_p1="Things I make in my free time that I'm passionate about
+                        and want to share"
+        destinationPage="/personalWork"
+        imgSrc={personalWorkImg}
+      />
+
+      <ExampleCard
         projectTitle="Small Projects"
         description_p1="Software projects that I've worked on (for the most part
                     exclusively) which showcase smaller skills, but aren't
                     full applications"
         destinationPage="/smallProjects"
         imgSrc={testflightImg}
-      />
-
-      <ExampleCard
-        projectTitle="Personal Work"
-        description_p1="Things I make in my free time that I'm passionate about
-                        and want to share, but which don't necessarily fit into
-                        clear project buckets."
-        description_p2="[Think Articles, Film Project Breakdowns, General Art,
-                        personal challenges, etc.]"
-        destinationPage="/personalWork"
-        imgSrc={personalWorkImg}
       />
     </div>
   </div>
