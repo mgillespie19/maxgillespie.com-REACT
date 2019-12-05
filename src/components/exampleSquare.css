@@ -1,6 +1,54 @@
-.Content {
+.Front, .Back {
   width: 98%;
   padding-top: 80%;
   margin-top:5px;
+}
+
+.Back {
+  margin-left: 8px;
+}
+
+.Front {
   background-color: white;
+}
+
+.Back{
+  background-color: black;
+}
+
+.FlipContainer {
+	perspective: 0;
+}
+	/* flip the pane when hovered */
+	.FlipContainer:hover {
+		transform: rotateY(180deg);
+	}
+
+.FlipContainer, .Front, .Back {
+  width: 98%;
+  padding-top: 80%;
+  margin-top:5px;
+  transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+/* hide back of pane during swap */
+.Front, .Back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.Front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.Back {
+	transform: rotateY(180deg);
 }

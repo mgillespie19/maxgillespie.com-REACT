@@ -81,6 +81,7 @@ const IndexPage = () => (
       />
     </div>
 
+
     <div className="WorkRowTwo">
       <ExampleSquare
         projectTitle="Small Projects"
@@ -116,51 +117,8 @@ const IndexPage = () => (
         imgSrc={testflightImg}
       />
     </div>
+
   </div>
 )
-
-// <div className="Work">
-//   <ExampleCard
-//     projectTitle="Internship at Maven Machines"
-//     description_p1="My work as an Android Intern during the Summer of 2019
-//                     at a software startup in Pittsburgh"
-//     destinationPage="/mavenMachines"
-//     imgSrc={mavenImg}
-//   />
-//
-//   <ExampleCard
-//     projectTitle="Grid"
-//     description_p1="An iOS app I made to help connect people who want to make
-//                     a difference in the world with organizations making a
-//                     difference"
-//     destinationPage="/grid"
-//     imgSrc={gridImg}
-//   />
-//
-//   <ExampleCard
-//     projectTitle="myEHR"
-//     description_p1="A class project from my junior year of college exploring
-//                     the potential of blockchain in helping the healthcare system"
-//     destinationPage="/myEHR"
-//     imgSrc={myEHRImg}
-//   />
-//
-//   <ExampleCard
-//     projectTitle="Personal Work"
-//     description_p1="Things I make in my free time that I'm passionate about
-//                     and want to share"
-//     destinationPage="/personalWork"
-//     imgSrc={personalWorkImg}
-//   />
-//
-//   <ExampleCard
-//     projectTitle="Small Projects"
-//     description_p1="Software projects that I've worked on (for the most part
-//                 exclusively) which showcase smaller skills, but aren't
-//                 full applications"
-//     destinationPage="/smallProjects"
-//     imgSrc={testflightImg}
-//   />
-// </div>
 
 export default IndexPage
