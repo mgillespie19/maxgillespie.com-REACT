@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './header.css'
 
-import logo from '../assets/logo-header.jpg'
+import logo from '../assets/logo-header.png'
 
 const Header = ({ siteTitle }) => (
   <div className="Header">

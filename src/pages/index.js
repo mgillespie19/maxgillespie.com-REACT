@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import rightHead from '../assets/head-right.jpg'
-import leftHead from '../assets/head-left.jpg'
+import rightHead from '../assets/head-right.png'
+import leftHead from '../assets/head-left.png'
 import mavenImg from '../assets/maven-machines.png'
 import personalWorkImg from '../assets/personal-projects.png'
 import gridImg from '../assets/Grid-Logo.png'
