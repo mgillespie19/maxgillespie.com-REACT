@@ -48,9 +48,9 @@ const IndexPage = () => (
 
     <div className="WorkRowOne">
       <ExampleSquare
-        projectTitle="Internship at Maven Machines"
-        description_p1="My work as an Android Intern during the Summer of 2019
-                        at a software startup in Pittsburgh"
+        projectTitle="Maven Machines"
+        description_p1="My job as an Android Developer Intern during the
+                        Summer of 2019 at a software startup in Pittsburgh"
         destinationPage="/mavenMachines"
         imgSrc={mavenImg}
       />

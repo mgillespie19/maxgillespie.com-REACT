@@ -34,6 +34,24 @@
   margin-top: -77%;
 }
 
+.ExampleInfo h1 {
+  margin: 20px;
+  padding-right: 25px;
+}
+
+.ExampleInfo p {
+  margin: 20px;
+  padding-right: 25px;
+}
+
+.ExampleInfo a {
+  color: blue;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
 .FlipContainer {
 	perspective: 0;
 }
