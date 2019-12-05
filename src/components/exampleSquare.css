@@ -4,16 +4,34 @@
   margin-top:5px;
 }
 
-.Back {
-  margin-left: 8px;
-}
-
 .Front {
   background-color: white;
 }
 
+.ImageContainer img {
+  position: relative;
+  background-size: cover;
+  width:100%;
+  margin-top: -83%;
+}
+
+.ImageContainer {
+  height: 0px;
+}
+
 .Back{
-  background-color: black;
+  background-color: white;
+  color: black;
+  margin-left: 8px;
+  align-content: flex-start;
+}
+
+.ExampleInfo {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+  width: 98%;
+  height: 100%;
+  margin-top: -77%;
 }
 
 .FlipContainer {
@@ -24,10 +42,10 @@
 		transform: rotateY(180deg);
 	}
 
-.FlipContainer, .Front, .Back {
+.FlipContainer {
   width: 98%;
   padding-top: 80%;
-  margin-top:5px;
+  margin-top:18%;
   transition: 1s;
 	transform-style: preserve-3d;
 	position: relative;
