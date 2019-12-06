@@ -8,7 +8,14 @@
   background-color: white;
 }
 
-.ImageContainer img {
+.Front img {
+  position: relative;
+  background-size: cover;
+  width:100%;
+  margin-top: -83%;
+}
+
+.Back img {
   position: relative;
   background-size: cover;
   width:100%;
@@ -31,7 +38,7 @@
   padding: 10px;
   width: 98%;
   height: 100%;
-  margin-top: -77%;
+  margin-top: -85%;
 }
 
 .ExampleInfo h1 {

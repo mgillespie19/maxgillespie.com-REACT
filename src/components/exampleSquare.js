@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import NoteCard from '../assets/NoteCard.png'
+
 import './exampleSquare.css'
 
 const ExampleSquare = ({ siteTitle, projectTitle, imageLink, description_p1,
@@ -13,6 +15,8 @@ const ExampleSquare = ({ siteTitle, projectTitle, imageLink, description_p1,
         </div>
 
         <div className="Back">
+
+
           <div className="ExampleInfo">
             <h1> {projectTitle} </h1>
             <p> {description_p1} </p>
