@@ -15,8 +15,6 @@ const ExampleSquare = ({ siteTitle, projectTitle, imageLink, description_p1,
         </div>
 
         <div className="Back">
-
-
           <div className="ExampleInfo">
             <h1> {projectTitle} </h1>
             <p> {description_p1} </p>
@@ -26,23 +24,5 @@ const ExampleSquare = ({ siteTitle, projectTitle, imageLink, description_p1,
         </div>
     </div>
 )
-
-// <div className="FlipContainer" ontouchstart="this.classList.toggle('hover');">
-//
-//     <div className="Front">
-//       <div className="ImageContainer">
-//         <img src={imgSrc} />
-//       </div>
-//     </div>
-//
-//     <div className="Back">
-//       <div className="ExampleInfo">
-//         <h1> {projectTitle} </h1>
-//         <p> {description_p1} </p>
-//         <p> {description_p2} </p>
-//         <Link to={destinationPage}> read more </Link>
-//       </div>
-//     </div>
-// </div>
 
 export default ExampleSquare

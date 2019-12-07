@@ -65,7 +65,7 @@ body {
   display: grid;
   align-content: space-between;
   width: 100%;
-  margin-left: 0.2%;
+  margin-left: 0.5%;
   margin-bottom: 5px;
   margin-top: 100px;
 }
@@ -75,11 +75,11 @@ body {
   display: grid;
   align-content: space-between;
   width: 100%;
-  margin-left: 0.2%;
+  margin-left: 0.5%;
   margin-bottom: 100px;
 }
 
-@media (max-width: 825px) {
+@media (max-width: 850px) {
   .Landing {
     grid-template-columns: repeat(1, auto);
   }
