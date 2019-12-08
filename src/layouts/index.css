@@ -54,10 +54,21 @@ body {
   font-size: 18pt;
 }
 
-.QuickPreamble {
+.QuickPreambleHeader {
   padding-top: 100px;
   width: 80%;
   margin-left: 8%;
+}
+
+.QuickPreambleBody {
+  color: rgb(0, 0, 0);
+  padding-top: 100px;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.QuickPreambleBody a {
+  color: rgba(37, 165, 101, 1);
 }
 
 .WorkRowOne {
@@ -76,7 +87,17 @@ body {
   align-content: space-between;
   width: 100%;
   margin-left: 0.5%;
-  margin-bottom: 100px;
+
+}
+
+.BottomHalf {
+  padding-bottom: 300px;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 45px;
+}
+
+.Footer {
+  padding: 20px;
 }
 
 @media (max-width: 850px) {
