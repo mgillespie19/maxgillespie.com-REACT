@@ -76,7 +76,7 @@ body {
   display: grid;
   align-content: space-between;
   width: 100%;
-  margin-left: 0.5%;
+  margin-left: 2.5%;
   margin-bottom: 5px;
   margin-top: 100px;
 }
@@ -86,8 +86,7 @@ body {
   display: grid;
   align-content: space-between;
   width: 100%;
-  margin-left: 0.5%;
-
+  margin-left: 2.5%;
 }
 
 .BottomHalf {
@@ -100,21 +99,21 @@ body {
   padding: 20px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 970px) {
   .Landing {
     grid-template-columns: repeat(1, auto);
   }
 
   .WorkRowOne, .WorkRowTwo {
     grid-template-columns: repeat(2, auto);
-    margin-left: 0.5%;
+    margin-left: 4.5%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .WorkRowOne, .WorkRowTwo {
     grid-template-columns: repeat(1, auto);
-    margin-left: 1%;
+    margin-left: 8%;
   }
 }
 

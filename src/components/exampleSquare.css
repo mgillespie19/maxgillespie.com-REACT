@@ -70,9 +70,9 @@
 	}
 
 .FlipContainer {
-  width: 98%;
-  padding-top: 80%;
-  margin-top:18%;
+  width: 84%;
+  padding-top: 61%;
+  margin-top:28%;
   transition: 0.7s;
 	transform-style: preserve-3d;
 	position: relative;
@@ -96,4 +96,16 @@
 /* back, initially hidden pane */
 .Back {
 	transform: rotateY(180deg);
+}
+
+@media (max-width: 970px) {
+  .ExampleInfo p {
+    font-size: 18pt;
+  }
+}
+
+@media (max-width: 600px) {
+  .ExampleInfo p {
+    font-size: 24pt;
+  }
 }
