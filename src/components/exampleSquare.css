@@ -6,10 +6,6 @@
   min-height: 20%;
 }
 
-.Front {
-  background-color: white;
-}
-
 .Front img {
   position: relative;
   background-size: cover;
@@ -73,7 +69,7 @@
   width: 84%;
   padding-top: 61%;
   margin-top:28%;
-  transition: 0.7s;
+  transition: 0.4s;
 	transform-style: preserve-3d;
 	position: relative;
 }

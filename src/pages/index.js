@@ -9,7 +9,10 @@ import gridImg from '../assets/Grid-Logo.png'
 import myEHRImg from '../assets/myEHR-logo.png'
 import testflightImg from '../assets/testflight-logo.png'
 import rainBow from '../assets/colorstrip.png'
+import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
+import skillshare from '../assets/skillshare.png'
 import ExampleSquare from '../components/exampleSquare'
+
 
 const IndexPage = () => (
   <div className="Page">
@@ -88,12 +91,10 @@ const IndexPage = () => (
 
       <div className="WorkRowTwo">
         <ExampleSquare
-          projectTitle="Small Projects"
-          description_p1="Software projects that I've worked on (for the most part
-                      exclusively) which showcase smaller skills, but aren't
-                      full applications"
-          destinationPage="/smallProjects"
-          imgSrc={testflightImg}
+          projectTitle="Skillshare"
+          description_p1="Take a look at some of the classes I'm teaching!"
+          destinationPage="/skillshare"
+          imgSrc={skillshare}
         />
 
         <ExampleSquare
@@ -105,11 +106,10 @@ const IndexPage = () => (
         />
 
         <ExampleSquare
-          projectTitle="Personal Work"
-          description_p1="Things I make in my free time that I'm passionate about
-                          and want to share"
-          destinationPage="/personalWork"
-          imgSrc={personalWorkImg}
+          projectTitle="The Future of Transportation"
+          description_p1="A sample magazine article I wrote about high speed rail"
+          destinationPage="/highSpeedRail"
+          imgSrc={popMechanics}
         />
 
         <ExampleSquare
