@@ -54,6 +54,7 @@ body {
   font-size: 18pt;
 }
 
+
 .QuickPreambleHeader {
   padding-top: 100px;
   width: 80%;
@@ -69,6 +70,15 @@ body {
 
 .QuickPreambleBody a {
   color: rgba(37, 165, 101, 1);
+}
+
+
+.SideBar1 {
+  z-index: 0;
+  height: auto;
+  width: 16%;
+  position: absolute;
+  margin-top: 80px;
 }
 
 .WorkRowOne {
@@ -97,6 +107,7 @@ body {
 
 .Footer {
   padding: 20px;
+  margin-left: 17%;
 }
 
 @media (max-width: 970px) {
@@ -108,12 +119,20 @@ body {
     grid-template-columns: repeat(2, auto);
     margin-left: 4.5%;
   }
+
+  .Footer {
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 600px) {
   .WorkRowOne, .WorkRowTwo {
     grid-template-columns: repeat(1, auto);
     margin-left: 8%;
+  }
+
+  .Footer {
+    margin-left: 5%;
   }
 }
 

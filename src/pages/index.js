@@ -8,7 +8,7 @@ import personalWorkImg from '../assets/personal-projects.png'
 import gridImg from '../assets/Grid-Logo.png'
 import myEHRImg from '../assets/myEHR-logo.png'
 import testflightImg from '../assets/testflight-logo.png'
-// import ExampleCard from '../components/exampleCard'
+import rainBow from '../assets/colorstrip.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -31,9 +31,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="QuickPreambleHeader">
 
-    </div>
 
     <div className="BottomHalf">
       <div className="QuickPreambleBody">
@@ -51,7 +49,12 @@ const IndexPage = () => (
         </p>
       </div>
 
+      <div className="SideBar1">
+        <img src={rainBow} />
+      </div>
+
       <div className="WorkRowOne">
+
         <ExampleSquare
           projectTitle="Maven Machines"
           description_p1="My job as an Android Development Intern at a startup in Pittsburgh"
