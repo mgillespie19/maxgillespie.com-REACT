@@ -27,10 +27,12 @@ body {
 
 .Landing #leftHead {
   place-self: end;
+  margin-bottom: 100px;
 }
 
 .Landing #rightHead {
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .Summary {
@@ -53,7 +55,6 @@ body {
   line-height: 2;
   font-size: 18pt;
 }
-
 
 .QuickPreambleHeader {
   padding-top: 100px;

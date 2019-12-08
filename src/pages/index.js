@@ -11,6 +11,7 @@ import testflightImg from '../assets/testflight-logo.png'
 import rainBow from '../assets/colorstrip.png'
 import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
 import skillshare from '../assets/skillshare.png'
+import colorPicker from '../assets/colorPalettes.png'
 import ExampleSquare from '../components/exampleSquare'
 
 
@@ -80,11 +81,10 @@ const IndexPage = () => (
         />
 
         <ExampleSquare
-          projectTitle="Personal Work"
-          description_p1="Things I make in my free time that I'm passionate about
-                          and want to share"
-          destinationPage="/personalWork"
-          imgSrc={personalWorkImg}
+          projectTitle="Color Picker"
+          description_p1="An iOS app for color palette design"
+          destinationPage="/colorPicker"
+          imgSrc={colorPicker}
         />
       </div>
 
@@ -113,12 +113,11 @@ const IndexPage = () => (
         />
 
         <ExampleSquare
-          projectTitle="Small Projects"
-          description_p1="Software projects that I've worked on (for the most part
-                      exclusively) which showcase smaller skills, but aren't
-                      full applications"
-          destinationPage="/smallProjects"
-          imgSrc={testflightImg}
+          projectTitle="Personal Work"
+          description_p1="Things I make in my free time that I'm passionate about
+                          and want to share"
+          destinationPage="/personalWork"
+          imgSrc={personalWorkImg}
         />
       </div>
     </div>
