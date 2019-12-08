@@ -111,7 +111,7 @@ body {
   margin-left: 24%;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1020px) {
   .Landing {
     grid-template-columns: repeat(1, auto);
   }

@@ -61,7 +61,7 @@ const IndexPage = () => (
 
         <ExampleSquare
           projectTitle="Maven Machines"
-          description_p1="My job as an Android Development Intern at a startup in Pittsburgh"
+          description_p1="My Android Internship at a Pittsburgh startup"
           destinationPage="/mavenMachines"
           imgSrc={mavenImg}
         />
@@ -114,8 +114,7 @@ const IndexPage = () => (
 
         <ExampleSquare
           projectTitle="Personal Work"
-          description_p1="Things I make in my free time that I'm passionate about
-                          and want to share"
+          description_p1="Art, moodboards, random work"
           destinationPage="/personalWork"
           imgSrc={personalWorkImg}
         />
