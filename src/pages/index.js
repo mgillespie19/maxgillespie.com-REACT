@@ -13,6 +13,7 @@ import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
 import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
+import simulpassImg from '../assets/simulpass.png'
 import ExampleSquare from '../components/exampleSquare'
 
 
@@ -59,6 +60,12 @@ const IndexPage = () => (
       </div>
 
       <div className="WorkRowOne">
+        <ExampleSquare
+          projectTitle="Simulpass"
+          description_p1="A curreny project developing an iOS app for networking"
+          destinationPage="/simulpass"
+          imgSrc={simulpassImg}
+        />
 
         <ExampleSquare
           projectTitle="Maven Machines"
@@ -66,14 +73,12 @@ const IndexPage = () => (
           destinationPage="/mavenMachines"
           imgSrc={mavenImg}
         />
-
         <ExampleSquare
           projectTitle="Grid"
           description_p1="An iOS app I made for connecting groups to people"
           destinationPage="/grid"
           imgSrc={gridImg}
         />
-
         <ExampleSquare
           projectTitle="myEHR"
           description_p1="A class project using blockchain to help the healthcare system"
@@ -81,23 +86,23 @@ const IndexPage = () => (
           imgSrc={myEHRImg}
         />
 
+
+
         <ExampleSquare
           projectTitle="Color Picker"
           description_p1="An iOS app for color palette design"
           destinationPage="/colorPicker"
           imgSrc={colorPicker}
         />
-      </div>
 
 
-      <div className="WorkRowTwo">
         <ExampleSquare
           projectTitle="Walls 'n' Halls"
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
         />
-        
+
         <ExampleSquare
           projectTitle="Skillshare"
           description_p1="Take a look at some of the classes I'm teaching!"
