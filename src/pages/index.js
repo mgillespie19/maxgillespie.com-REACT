@@ -101,7 +101,7 @@ const IndexPage = () => (
         <ExampleSquare
           projectTitle="Walls 'n' Halls"
           description_p1="A retro video game built with Unity"
-          destinationPage="/myEHR"
+          destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
         />
 
