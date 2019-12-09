@@ -13,7 +13,7 @@ import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
 import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
-import simulpassImg from '../assets/simulpass.png'
+import simulpassImg from '../assets/Simulpass.png'
 import ExampleSquare from '../components/exampleSquare'
 
 
