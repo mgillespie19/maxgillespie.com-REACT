@@ -12,6 +12,7 @@ import rainBow from '../assets/colorstrip.png'
 import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
 import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
+import wallsNHalls from '../assets/walls_n_halls.png'
 import ExampleSquare from '../components/exampleSquare'
 
 
@@ -98,11 +99,10 @@ const IndexPage = () => (
         />
 
         <ExampleSquare
-          projectTitle="myEHR"
-          description_p1="A class project from my junior year of college exploring
-                          the potential of blockchain in helping the healthcare system"
+          projectTitle="Walls 'n' Halls"
+          description_p1="A retro video game built with Unity"
           destinationPage="/myEHR"
-          imgSrc={myEHRImg}
+          imgSrc={wallsNHalls}
         />
 
         <ExampleSquare
