@@ -62,7 +62,7 @@ const IndexPage = () => (
       <div className="WorkRowOne">
         <ExampleSquare
           projectTitle="Simulpass"
-          description_p1="A curreny project developing an iOS app for networking"
+          description_p1="A current project developing an iOS app for a startup"
           destinationPage="/simulpass"
           imgSrc={simulpassImg}
         />
