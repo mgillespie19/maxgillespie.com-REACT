@@ -16,7 +16,6 @@ import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
 import ExampleSquare from '../components/exampleSquare'
 
-
 const IndexPage = () => (
   <div className="Page">
     <div  className="Landing">

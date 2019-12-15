@@ -6,6 +6,7 @@ import '../layouts/workLayout.css'
 const IndexPage = () => (
   <div className="WorkDetail">
     <h1> Small Projects </h1>
+
   </div>
 )
 

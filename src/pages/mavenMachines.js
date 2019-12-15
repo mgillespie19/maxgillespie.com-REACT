@@ -18,6 +18,40 @@ const IndexPage = () => (
     codebase for their app that services thousands of truck
     drivers and dispatchers daily."
     </p>
+
+    <h2> responsibilities </h2>
+    <ul>
+      <li>
+        Worked in an agile development environment on the Android Application team
+      </li>
+      <li> Wrote scalable software in Kotlin and Java </li>
+      <li>
+        Built multiple new product features that were released to thousands
+        of drivers across multiple fleets
+      </li>
+      <li>
+        Part of team that honed release strategy that catered to multiple
+        enterprise-level clients
+      </li>
+      <li>
+        Improved overall ability to function as mission-critical software
+        through bug fixes and UI/UX improvements
+      </li>
+    </ul>
+
+    <h2> technologies used </h2>
+    <ul>
+      <li>
+        Android Studio
+      </li>
+      <li>
+        Java
+      </li>
+      <li>
+        Kotlin
+      </li>
+    </ul>
+
   </div>
 )
 
