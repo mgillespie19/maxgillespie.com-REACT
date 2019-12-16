@@ -13,14 +13,16 @@ const IndexPage = () => (
     currently working with Regavi to launch a new product called Simulpass.
     </p>
 
-    <h2> summary </h2>
+    <h2> key deliverables </h2>
     <ul>
       <li> Work in agile development environment </li>
       <li> Architect and implement MVVM-based iOS application with SwiftUI </li>
       <li> Build app that interfaces directly with AWS Amplify </li>
-      <li> Work with team to design blockchain backend, built with LightStreams
-      (a cutting-edge Ethereum based protocol that combines the best of
-      communication and storage available in blockchain in 2019) </li>
+      <li>
+        Work with team to design blockchain backend, built with LightStreams
+        (a cutting-edge Ethereum based protocol that combines the best of
+        communication and storage available in blockchain in 2019)
+      </li>
     </ul>
 
     <h2> technologies used </h2>

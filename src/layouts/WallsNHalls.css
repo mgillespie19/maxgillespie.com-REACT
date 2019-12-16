@@ -1,0 +1,19 @@
+.Details {
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: space-between;
+  width: 100%;
+}
+
+.Details img {
+  width: 95%;
+  padding: 1%;
+}
+
+.Details p {
+  padding: 3%;
+}
+
+li {
+  margin-left: 5%;
+}
