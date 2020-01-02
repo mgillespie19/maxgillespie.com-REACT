@@ -1,0 +1,16 @@
+.futureOfTransportMagazinePages {
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: space-between;
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+}
+
+@media (max-width: 825px) {
+  .futureOfTransportMagazinePages {
+    grid-template-columns: repeat(1, auto);
+  }
+}
