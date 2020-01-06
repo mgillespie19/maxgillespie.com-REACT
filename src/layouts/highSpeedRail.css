@@ -7,7 +7,10 @@
 }
 
 .page {
-  width: 100%;
+  width: 98%;
+  padding-right:1%;
+  padding-left:1%;
+  padding-top: 1px;
 }
 
 @media (max-width: 825px) {
