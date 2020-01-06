@@ -72,50 +72,31 @@ const IndexPage = () => (
           destinationPage="/mavenMachines"
           imgSrc={mavenImg}
         />
-        <ExampleSquare
-          projectTitle="Grid"
-          description_p1="An iOS app I made for connecting groups to people"
-          destinationPage="/grid"
-          imgSrc={gridImg}
-        />
+
         <ExampleSquare
           projectTitle="myEHR"
           description_p1="A class project using blockchain to help the healthcare system"
           destinationPage="/myEHR"
           imgSrc={myEHRImg}
         />
-
-
-
-        <ExampleSquare
-          projectTitle="Color Picker"
-          description_p1="An iOS app for color palette design"
-          destinationPage="/colorPicker"
-          imgSrc={colorPicker}
-        />
-
-
         <ExampleSquare
           projectTitle="Walls 'n' Halls"
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
         />
-
         <ExampleSquare
           projectTitle="Skillshare"
           description_p1="Take a look at some of the classes I'm teaching!"
           destinationPage="/skillshare"
           imgSrc={skillshare}
         />
-
         <ExampleSquare
           projectTitle="The Future of Transportation"
           description_p1="A sample magazine article I wrote about high speed rail"
           destinationPage="/highSpeedRail"
           imgSrc={popMechanics}
         />
-
         <ExampleSquare
           projectTitle="Personal Work"
           description_p1="Art, moodboards, random work"
@@ -135,3 +116,17 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+// <ExampleSquare
+//   projectTitle="Color Picker"
+//   description_p1="An iOS app for color palette design"
+//   destinationPage="/colorPicker"
+//   imgSrc={colorPicker}
+// />
+
+// <ExampleSquare
+//   projectTitle="Grid"
+//   description_p1="An iOS app I made for connecting groups to people"
+//   destinationPage="/grid"
+//   imgSrc={gridImg}
+// />

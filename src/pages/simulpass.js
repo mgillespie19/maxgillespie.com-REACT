@@ -17,7 +17,7 @@ const IndexPage = () => (
     <ul>
       <li> Work in agile development environment </li>
       <li> Architect and implement MVVM-based iOS application with SwiftUI </li>
-      <li> Build app that interfaces directly with AWS Amplify </li>
+      <li> Build app that interfaces with AWS Amplify and GraphQL </li>
       <li>
         Work with team to design blockchain backend, built with LightStreams
         (a cutting-edge Ethereum based protocol that combines the best of
