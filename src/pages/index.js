@@ -65,14 +65,12 @@ const IndexPage = () => (
           destinationPage="/simulpass"
           imgSrc={simulpassImg}
         />
-
         <ExampleSquare
           projectTitle="Maven Machines"
           description_p1="My Android Internship at a Pittsburgh startup"
           destinationPage="/mavenMachines"
           imgSrc={mavenImg}
         />
-
         <ExampleSquare
           projectTitle="myEHR"
           description_p1="A class project using blockchain to help the healthcare system"
@@ -80,10 +78,10 @@ const IndexPage = () => (
           imgSrc={myEHRImg}
         />
         <ExampleSquare
-          projectTitle="Walls 'n' Halls"
-          description_p1="A retro video game built with Unity"
-          destinationPage="/wallsNHalls"
-          imgSrc={wallsNHalls}
+          projectTitle="The Future of Transportation"
+          description_p1="A sample magazine article I wrote about high speed rail"
+          destinationPage="/highSpeedRail"
+          imgSrc={popMechanics}
         />
         <ExampleSquare
           projectTitle="Skillshare"
@@ -92,10 +90,10 @@ const IndexPage = () => (
           imgSrc={skillshare}
         />
         <ExampleSquare
-          projectTitle="The Future of Transportation"
-          description_p1="A sample magazine article I wrote about high speed rail"
-          destinationPage="/highSpeedRail"
-          imgSrc={popMechanics}
+          projectTitle="Walls 'n' Halls"
+          description_p1="A retro video game built with Unity"
+          destinationPage="/wallsNHalls"
+          imgSrc={wallsNHalls}
         />
         <ExampleSquare
           projectTitle="Personal Work"
