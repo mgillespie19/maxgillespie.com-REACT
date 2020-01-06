@@ -2,6 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import '../layouts/workLayout.css'
+import '../layouts/mavenLayout.css'
+
+import tabletImage from '../assets/Maven/mavenimg4.png'
+import screen1 from '../assets/Maven/screen1.png'
+import screen2 from '../assets/Maven/screen2.png'
+import screen3 from '../assets/Maven/screen3.png'
 
 const IndexPage = () => (
   <div className="WorkDetail">
@@ -18,6 +24,10 @@ const IndexPage = () => (
     codebase for their app that services thousands of truck
     drivers and dispatchers daily."
     </p>
+
+    <div className='mavenDetailImages1'>
+      <img src={tabletImage} />
+    </div>
 
     <h2> responsibilities </h2>
     <ul>
@@ -38,6 +48,12 @@ const IndexPage = () => (
         through bug fixes and UI/UX improvements
       </li>
     </ul>
+
+    <div className='mavenDetailImages2'>
+      <img src={screen1} />
+      <img src={screen2} />
+      <img src={screen3} />
+    </div>
 
     <h2> technologies used </h2>
     <ul>
