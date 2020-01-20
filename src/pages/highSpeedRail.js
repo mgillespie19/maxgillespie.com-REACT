@@ -22,7 +22,7 @@ const IndexPage = () => (
     <h2> inspiration </h2>
     <p>
       The following work is my final project for a class I took called Technical
-      Writing during the fall semester of my senior year was Washington
+      Writing during the fall semester of my senior year at Washington
       University in St. Louis.
     </p>
     <p>

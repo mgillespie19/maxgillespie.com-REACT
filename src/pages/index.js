@@ -84,12 +84,6 @@ const IndexPage = () => (
           imgSrc={popMechanics}
         />
         <ExampleSquare
-          projectTitle="Skillshare"
-          description_p1="Take a look at some of the classes I'm teaching!"
-          destinationPage="/skillshare"
-          imgSrc={skillshare}
-        />
-        <ExampleSquare
           projectTitle="Walls 'n' Halls"
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
@@ -115,6 +109,12 @@ const IndexPage = () => (
 
 export default IndexPage
 
+// <ExampleSquare
+//   projectTitle="Skillshare"
+//   description_p1="Take a look at some of the classes I'm teaching!"
+//   destinationPage="/skillshare"
+//   imgSrc={skillshare}
+// />
 // <ExampleSquare
 //   projectTitle="Color Picker"
 //   description_p1="An iOS app for color palette design"
