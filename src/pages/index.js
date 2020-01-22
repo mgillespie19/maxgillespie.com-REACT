@@ -91,7 +91,7 @@ const IndexPage = () => (
         />
         <ExampleSquare
           projectTitle="Personal Work"
-          description_p1="Art, moodboards, random work"
+          description_p1="Mostly sketches and simple digital concepts"
           destinationPage="/personalWork"
           imgSrc={personalWorkImg}
         />

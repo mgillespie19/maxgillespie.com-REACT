@@ -1,3 +1,16 @@
 .personalWorkImg img {
+  width: 90%;
+}
+
+.personalWorkContent {
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: space-between;
   width: 100%;
+}
+
+@media (max-width: 750px) {
+  .personalWorkContent {
+    grid-template-columns: repeat(1, auto);
+  }
 }
