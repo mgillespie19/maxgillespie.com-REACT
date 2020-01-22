@@ -99,7 +99,7 @@ const IndexPage = () => (
     </div>
 
     <div className="Footer">
-      <p> © 2019 max gillespie </p>
+      <p> © 2020 max gillespie </p>
       <p> 6105 Delmar Blvd </p>
       <p> St. Louis, MO 63112</p>
       <p> inquiries: max@maxgillespie.com </p>
