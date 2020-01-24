@@ -10,7 +10,7 @@ body {
 }
 
 .Page {
-  display:table;
+  /* display:table; */
   width: 100%;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .Landing img {
-  height:655px;
+  height:635px;
 }
 
 .Landing #leftHead {

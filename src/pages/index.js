@@ -14,6 +14,7 @@ import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
+import runTrackerImg from '../assets/run tracker logo 5.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -66,6 +67,12 @@ const IndexPage = () => (
           imgSrc={simulpassImg}
         />
         <ExampleSquare
+          projectTitle="Run Tracker"
+          description_p1="CURRENTLY IN DESIGN PROCESS: an app for runners."
+          destinationPage="/RunTracker"
+          imgSrc={runTrackerImg}
+        />
+        <ExampleSquare
           projectTitle="Maven Machines"
           description_p1="My Android Internship at a Pittsburgh startup"
           destinationPage="/mavenMachines"
@@ -78,16 +85,16 @@ const IndexPage = () => (
           imgSrc={myEHRImg}
         />
         <ExampleSquare
-          projectTitle="The Future of Transportation"
-          description_p1="A sample magazine article I wrote about high speed rail"
-          destinationPage="/highSpeedRail"
-          imgSrc={popMechanics}
-        />
-        <ExampleSquare
           projectTitle="Walls 'n' Halls"
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
+        />
+        <ExampleSquare
+          projectTitle="The Future of Transportation"
+          description_p1="A sample magazine article I wrote about high speed rail"
+          destinationPage="/highSpeedRail"
+          imgSrc={popMechanics}
         />
         <ExampleSquare
           projectTitle="Personal Work"
