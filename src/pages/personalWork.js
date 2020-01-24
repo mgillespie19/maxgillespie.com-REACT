@@ -7,12 +7,18 @@ import '../layouts/personalWorkLayout.css'
 import mountain from '../assets/Personal_Projects/mountain.png'
 import forever from '../assets/Personal_Projects/forever.png'
 import yeezy from '../assets/Personal_Projects/yeezy350tailgate.png'
+import shoeBrainstorm from '../assets/Personal_Projects/what should a shoe be.png'
 
 const IndexPage = () => (
   <div className="WorkDetail">
     <h1> Personal Work </h1>
 
     <div className="personalWorkContent">
+      <div className="personalWorkImg">
+        <h3> brainstorming </h3>
+        <img src={shoeBrainstorm} />
+      </div>
+
       <div className="personalWorkImg">
         <h3> yeezy </h3>
         <img src={yeezy} />
