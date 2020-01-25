@@ -1,0 +1,23 @@
+#runTrackerIcon {
+  padding-left: 12.5%;
+  padding-top: 50px;
+  max-width: 450px;
+}
+
+.runTrackerHeaderLayout {
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .runTrackerHeaderLayout {
+    grid-template-columns: repeat(1, auto);
+    display: grid;
+  }
+
+  #runTrackerIcon {
+    padding-bottom: 50px;
+  }
+}

@@ -14,7 +14,7 @@ import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
-import runTrackerImg from '../assets/run tracker logo 5.png'
+import runTrackerImg from '../assets/run tracker logo 6.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -61,16 +61,16 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
-          projectTitle="Simulpass"
-          description_p1="A current project developing an iOS app for a startup"
-          destinationPage="/simulpass"
-          imgSrc={simulpassImg}
-        />
-        <ExampleSquare
           projectTitle="Run Tracker"
           description_p1="CURRENTLY IN DESIGN PROCESS: an app for runners."
           destinationPage="/RunTracker"
           imgSrc={runTrackerImg}
+        />
+        <ExampleSquare
+          projectTitle="Simulpass"
+          description_p1="A current project developing an iOS app for a startup"
+          destinationPage="/simulpass"
+          imgSrc={simulpassImg}
         />
         <ExampleSquare
           projectTitle="Maven Machines"

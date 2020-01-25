@@ -7,3 +7,21 @@
   background-color: white;
   color: black;
 }
+
+.oneHalfImage {
+  width: 50%;
+}
+
+.fullImage {
+  width: 100%;
+}
+
+.threeQuartersImage {
+  width: 75%;
+}
+
+@media (max-width: 750px) {
+  .oneHalfImage {
+    width: 100%;
+  }
+}
