@@ -14,7 +14,7 @@ import skillshare from '../assets/skillshare.png'
 import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
-import runTrackerImg from '../assets/run tracker logo 6.png'
+import runTrackerImg from '../assets/run tracker logo.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -61,8 +61,8 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
-          projectTitle="Run Tracker"
-          description_p1="CURRENTLY IN DESIGN PROCESS: an app for runners."
+          projectTitle="Curro"
+          description_p1="An iOS app by runners, for runners"
           destinationPage="/RunTracker"
           imgSrc={runTrackerImg}
         />
@@ -79,6 +79,12 @@ const IndexPage = () => (
           imgSrc={mavenImg}
         />
         <ExampleSquare
+          projectTitle="The Future of Transportation"
+          description_p1="A sample magazine article I wrote about high speed rail"
+          destinationPage="/highSpeedRail"
+          imgSrc={popMechanics}
+        />
+        <ExampleSquare
           projectTitle="myEHR"
           description_p1="A class project using blockchain to help the healthcare system"
           destinationPage="/myEHR"
@@ -89,12 +95,6 @@ const IndexPage = () => (
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
-        />
-        <ExampleSquare
-          projectTitle="The Future of Transportation"
-          description_p1="A sample magazine article I wrote about high speed rail"
-          destinationPage="/highSpeedRail"
-          imgSrc={popMechanics}
         />
         <ExampleSquare
           projectTitle="Personal Work"

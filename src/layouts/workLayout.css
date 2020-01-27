@@ -20,6 +20,11 @@
   width: 75%;
 }
 
+.twoColImage {
+  width: 80%;
+  padding-left: 10%;
+}
+
 @media (max-width: 750px) {
   .oneHalfImage {
     width: 100%;

@@ -4,7 +4,7 @@
   max-width: 450px;
 }
 
-.runTrackerHeaderLayout {
+.runTracker2ColLayout {
   grid-template-columns: repeat(2, auto);
   display: grid;
   align-content: space-between;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 750px) {
-  .runTrackerHeaderLayout {
+  .runTracker2ColLayout {
     grid-template-columns: repeat(1, auto);
     display: grid;
   }
