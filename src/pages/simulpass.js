@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="twoColLayout">
       <div>
         <h1> Simulpass </h1>
-        
+
         <p>
         Simulpass is a startup founded at Washington University in St. Louis with
         the mission of bringing people together by making connections better.
