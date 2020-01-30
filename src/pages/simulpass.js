@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-// import phoneScreen1 from '../assets/Simulpass/SimulPass_Screen1.png'
 import '../layouts/workLayout.css'
 import '../layouts/simulpass.css'
 
@@ -32,8 +31,6 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-
-      // <img className="phoneScreen" src={phoneScreen1} />
     </div>
 
     <h2> technologies used </h2>
