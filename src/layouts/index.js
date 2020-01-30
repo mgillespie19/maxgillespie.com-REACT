@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import favIcon from '../assets/my-icon.png'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -14,6 +15,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+      ]}
+      link={[
+        { rel: "icon", type: "image/png", sizes: "50x55", href: `${favIcon}` }
       ]}
     />
     <Header />
