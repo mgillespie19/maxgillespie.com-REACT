@@ -8,6 +8,16 @@
   color: black;
 }
 
+.pdfButton {
+  color: blue;
+  width: 60%;
+  background-color: white;
+  margin-left: 30%;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #DDDDDD;
+}
+
 .oneHalfImage {
   width: 50%;
 }
@@ -25,8 +35,20 @@
   padding-left: 10%;
 }
 
+.twoColLayout {
+  grid-template-columns: repeat(2, auto);
+  display: grid;
+  align-content: space-between;
+  width: 100%;
+}
+
 @media (max-width: 750px) {
   .oneHalfImage {
     width: 100%;
+  }
+
+  .twoColLayout {
+    grid-template-columns: repeat(1, auto);
+    display: grid;
   }
 }

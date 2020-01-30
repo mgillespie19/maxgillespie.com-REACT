@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #EEEEEE;
+  color: rgba(37, 165, 101, 1);
   text-decoration: none;
   font-weight: 600;
 }

@@ -15,6 +15,7 @@ import colorPicker from '../assets/colorPalettes.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
 import runTrackerImg from '../assets/run tracker logo.png'
+import greenShoeThumb from '../assets/greenShoeThumb.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -61,9 +62,15 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
+          projectTitle="The Green Shoe Project"
+          description_p1="A sustainable fashion project"
+          destinationPage="/greenShoeProject"
+          imgSrc={greenShoeThumb}
+        />
+        <ExampleSquare
           projectTitle="Curro"
           description_p1="An iOS app by runners, for runners"
-          destinationPage="/RunTracker"
+          destinationPage="/curro"
           imgSrc={runTrackerImg}
         />
         <ExampleSquare

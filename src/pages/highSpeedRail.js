@@ -14,6 +14,7 @@ import p8 from '../assets/FutureOfTransport/FutureOfTransport_p8.png'
 import p9 from '../assets/FutureOfTransport/FutureOfTransport_p9.png'
 import p10 from '../assets/FutureOfTransport/FutureOfTransport_p10.png'
 import p11 from '../assets/FutureOfTransport/FutureOfTransport_p11.png'
+import magazine from '../assets/FutureOfTransport/310 Final Project.pdf'
 
 const IndexPage = () => (
   <div className="WorkDetail">
@@ -38,16 +39,19 @@ const IndexPage = () => (
       in America, as well as the roadblocks we will face
       along the way in the realization of these technologies.
     </p>
+    <p>
+      Read from the pages below, or
+    </p>
+    <p>
+      <a
+        className="pdfButton"
+        rel="noopener noreferrer"
+        href={magazine}
+        target="_blank">
+        click here to view the pdf!
+      </a>
+    </p>
 
-    <h2> technologies used </h2>
-    <ul>
-      <li>
-        Adobe InDesign
-      </li>
-      <li>
-        Adobe Illustrator
-      </li>
-    </ul>
 
     <div className="futureOfTransportMagazinePages">
       <img className="page" src={p1} />
@@ -62,6 +66,16 @@ const IndexPage = () => (
       <img className="page" src={p10} />
       <img className="page" src={p11} />
     </div>
+
+    <h2> technologies used </h2>
+    <ul>
+      <li>
+        Adobe InDesign
+      </li>
+      <li>
+        Adobe Illustrator
+      </li>
+    </ul>
 
   </div>
 )
