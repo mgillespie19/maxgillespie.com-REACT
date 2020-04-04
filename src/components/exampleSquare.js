@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import NoteCard from '../assets/NoteCard.png'
 
-import './exampleSquare.css'
+import './betterExampleSquare.css'
 
 const ExampleSquare = ({ siteTitle, projectTitle, imageLink, description_p1,
                         description_p2, destinationPage, imgSrc }) => (

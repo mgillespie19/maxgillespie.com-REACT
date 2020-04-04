@@ -90,9 +90,9 @@
 }
 
 /* back, initially hidden pane */
-.Back {
+/* .Back {
 	transform: rotateY(180deg);
-}
+} */
 
 @media (max-width: 970px) {
   .ExampleInfo p {
