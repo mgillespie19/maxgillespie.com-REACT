@@ -1,0 +1,108 @@
+.Front, .Back {
+    width: 98%;
+    
+    min-height: 20%;
+  }
+  
+  .Front {
+    max-height: 30%;
+    padding-top: 80%;
+  }
+
+  .Back {
+    
+  }
+
+  .Front img {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    margin-top: -83%;
+  }
+  .Back {
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: white;
+      height: 25%;
+    padding-top: 79%;
+  }
+  
+  .Back img {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .ImageContainer {
+    height: 0px;
+  }
+  
+  .Back{
+    background-color: white;
+    color: black;
+    align-content: flex-start;
+  }
+  
+  .ExampleInfo {
+    font-family: 'Titillium Web', sans-serif;
+  
+    width: 98%;
+    height: 100%;
+    margin-top: -85%;
+  }
+  
+  .ExampleInfo h1 {
+    font-size: 18pt;
+    margin: 20px;
+    padding-right: 15px;
+  }
+  
+  .ExampleInfo p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .ExampleInfo a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+  }
+  
+  .FlipContainer {
+      perspective: 0;
+  }
+      /* flip the pane when hovered */
+      .FlipContainer:hover .Back {
+        opacity: 1;
+      }
+  
+  .FlipContainer {
+    width: 84%;
+    padding-top: 61%;
+    margin-top:28%;
+    transition: 0s;
+      transform-style: preserve-3d;
+      position: relative;
+  }
+  /* hide back of pane during swap */
+  .Front, .Back {
+      backface-visibility: hidden;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  @media (max-width: 970px) {
+    .ExampleInfo p {
+      font-size: 18pt;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .ExampleInfo p {
+      font-size: 24pt;
+    }
+  }
+  
