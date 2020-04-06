@@ -29,51 +29,36 @@ const IndexPage = () => (
             href="https://apps.apple.com/us/app/paint-chips/id1502792725"
             rel="noopener noreferrer"
             target="_blank"
-        >Download on the App Store</a>
+        >Download on the iOS App Store</a>
 
-        <h2> role </h2>
-        <p>
-          
-        </p>
       </div>
 
       <img id="appIcon" className="threeQuartersImage" src={icon} />
     </div>
 
     <h2> inspiration </h2>
-      <p>
-        
-      </p>
-      <p>
-        
-      </p>
-
-    <h2> brainstorming </h2>
-
     <p>
-      
+        This app came out of the necessity for me to build color palettes combined with
+        the lack of options I was satisfied with to do so.  
     </p>
+    <p>
+        My vision was to build a super-simple product that could empower its users to
+    </p>
+
+    {/* <h2> in the app </h2> */}
 
     <div className="twoColLayout">
       <div>
-        <h3> brand identity </h3>
-          <img className="twoColImage" src={logoDevelopment} />
+        <h2> cool stats </h2>
+        <p> 
+            downloads as of april 4, 2020: 48
+        </p>
+        <p>
+            release date: march 27, 2020
+        </p>
       </div>
 
       <div>
-        <h3> wireframes </h3>
-          <p>
-            
-
-            <ul>
-              <li>
-
-              </li>
-            </ul>
-          </p>
-
-          <img className="twoColImage" src={whiteBoard1} />
-
           <h2> technologies used </h2>
             <ul>
               <li>
