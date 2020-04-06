@@ -1,6 +1,6 @@
 import React from 'react'
 
-import icon from '../assets/SimulPass.png'
+import icon from '../assets/Simulpass.png'
 
 import '../layouts/workLayout.css'
 import '../layouts/simulpass.css'
