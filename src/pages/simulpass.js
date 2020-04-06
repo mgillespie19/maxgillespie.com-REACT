@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
+
+import icon from '../assets/SimulPass.png'
 
 import '../layouts/workLayout.css'
 import '../layouts/simulpass.css'
@@ -9,29 +10,36 @@ const IndexPage = () => (
     <div className="twoColLayout">
       <div>
         <h1> Simulpass </h1>
-
         <p>
-        Simulpass is a startup founded at Washington University in St. Louis with
-        the mission of bringing people together by making connections better.
+          Simulpass is a startup founded at Washington University in St. Louis with
+          the mission of bringing people together by making connections better.
         </p>
 
-        <h2> key deliverables </h2>
-        <ul>
-          <li> Work in agile development environment </li>
-          <li> Architect and implement MVVM-based iOS application with SwiftUI </li>
-          <li>
-            Iterate on existing UI and UX using customer feedback by conducting user
-            tests
-          </li>
-          <li> Build app that interfaces with AWS Amplify and GraphQL </li>
-          <li>
-            Work with team to design blockchain backend, built with LightStreams
-            (a cutting-edge Ethereum based protocol that combines the best of
-            communication and storage available in blockchain in 2019)
-          </li>
-        </ul>
+        <h2> role </h2>
+        <p>
+          Senior iOS Developer / Project Manager
+        </p>
+
       </div>
+
+      <img id="appIcon" className="threeQuartersImage" src={icon} />
     </div>
+
+    <h2> key deliverables </h2>
+    <ul>
+      <li> Work in agile development environment </li>
+      <li> Architect and implement MVVM-based iOS application with SwiftUI </li>
+      <li>
+        Iterate on existing UI and UX using customer feedback by conducting user
+        tests
+      </li>
+      <li> Build app that interfaces with AWS Amplify and GraphQL </li>
+      <li>
+        Work with team to design blockchain backend, built with LightStreams
+        (a cutting-edge Ethereum based protocol that combines the best of
+        communication and storage available in blockchain in 2019)
+      </li>
+    </ul>
 
     <h2> technologies used </h2>
     <ul>
