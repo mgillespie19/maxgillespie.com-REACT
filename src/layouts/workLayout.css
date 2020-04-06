@@ -42,6 +42,12 @@
   width: 100%;
 }
 
+#appIcon {
+  padding-left: 12.5%;
+  padding-top: 50px;
+  max-width: 450px;
+}
+
 @media (max-width: 750px) {
   .oneHalfImage {
     width: 100%;

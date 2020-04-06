@@ -10,8 +10,7 @@ import myEHRImg from '../assets/myEHR-logo.png'
 import testflightImg from '../assets/testflight-logo.png'
 import rainBow from '../assets/colorstrip.png'
 import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
-import skillshare from '../assets/skillshare.png'
-import colorPicker from '../assets/colorPalettes.png'
+import paintChips from '../assets/PaintChips.png'
 import wallsNHalls from '../assets/walls_n_halls.png'
 import simulpassImg from '../assets/Simulpass.png'
 import runTrackerImg from '../assets/run tracker logo.png'
@@ -52,7 +51,7 @@ const IndexPage = () => (
         <p>
           if you like what you see, and are interested in working together on a project,
           check out <Link to="/about"> <b> contact </b> </Link> in my about section,
-          or head over to <Link to="/"> <b> my contracting company </b> </Link>
+          or head over to <a href="https://www.paisleydesign.group" target="_blank"> <b> my contracting company </b> </a>
         </p>
       </div>
 
@@ -62,10 +61,10 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
-          projectTitle="The Green Shoe Project"
-          description_p1="A sustainable fashion project"
-          destinationPage="/greenShoeProject"
-          imgSrc={greenShoeThumb}
+          projectTitle="Simulpass"
+          description_p1="A current project developing an iOS app for a startup"
+          destinationPage="/simulpass"
+          imgSrc={simulpassImg}
         />
         <ExampleSquare
           projectTitle="Curro"
@@ -74,16 +73,22 @@ const IndexPage = () => (
           imgSrc={runTrackerImg}
         />
         <ExampleSquare
-          projectTitle="Simulpass"
-          description_p1="A current project developing an iOS app for a startup"
-          destinationPage="/simulpass"
-          imgSrc={simulpassImg}
+          projectTitle="Paint Chips"
+          description_p1="A color palette curation app"
+          destinationPage="/paintChips"
+          imgSrc={paintChips}
         />
         <ExampleSquare
           projectTitle="Maven Machines"
           description_p1="My Android Internship at a Pittsburgh startup"
           destinationPage="/mavenMachines"
           imgSrc={mavenImg}
+        />
+        <ExampleSquare
+          projectTitle="The Green Shoe Project"
+          description_p1="A sustainable fashion project"
+          destinationPage="/greenShoeProject"
+          imgSrc={greenShoeThumb}
         />
         <ExampleSquare
           projectTitle="The Future of Transportation"
@@ -113,10 +118,10 @@ const IndexPage = () => (
     </div>
 
     <div className="Footer">
-      <p> © 2020 max gillespie </p>
-      <p> 6105 Delmar Blvd </p>
-      <p> St. Louis, MO 63112</p>
-      <p> inquiries: max@maxgillespie.com </p>
+      <p> © 2020 MAX GILLESPIE </p>
+      <p> 44 THORN ST. </p>
+      <p> SEWICKLEY PA 15143</p>
+      <p> INQUIRIES: MAX@MAXGILLESPIE.COM </p>
     </div>
   </div>
 )
