@@ -9,28 +9,25 @@
     padding-top: 80%;
   }
 
-  .Back {
-    
-  }
-
   .Front img {
     position: relative;
     background-size: cover;
     width: 100%;
-    margin-top: -83%;
+    margin-top: -81%;
   }
   .Back {
       opacity: 0;
       transition: 0.5s ease;
       background-color: white;
-      height: 25%;
-    padding-top: 79%;
+      height: 24%;
+      padding-top: 82%;
   }
   
   .Back img {
     position: relative;
     background-size: cover;
     width: 100%;
+    height: 100px;
   }
   
   .ImageContainer {
@@ -39,7 +36,7 @@
   
   .Back{
     background-color: white;
-    color: black;
+    color: BLACK;
     align-content: flex-start;
   }
   
@@ -63,7 +60,7 @@
   }
   
   .ExampleInfo a {
-    color: blue;
+    color: BLUE;
     text-decoration: none;
     font-weight: 600;
     margin: 20px;

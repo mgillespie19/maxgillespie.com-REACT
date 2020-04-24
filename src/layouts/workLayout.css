@@ -12,10 +12,10 @@
   color: blue;
   width: 60%;
   background-color: white;
-  margin-left: 30%;
   padding: 12px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px #DDDDDD;
+  font-size: large;
 }
 
 .oneHalfImage {

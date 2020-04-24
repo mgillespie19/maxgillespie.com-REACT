@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import rightHead from '../assets/head-right.png'
 import leftHead from '../assets/head-left.png'
-import mavenImg from '../assets/maven-machines.png'
+import mavenImg from '../assets/maven.jpg'
 import personalWorkImg from '../assets/personal-projects.png'
 import gridImg from '../assets/Grid-Logo.png'
 import myEHRImg from '../assets/myEHR-logo.png'
@@ -107,12 +107,6 @@ const IndexPage = () => (
           description_p1="A retro video game built with Unity"
           destinationPage="/wallsNHalls"
           imgSrc={wallsNHalls}
-        />
-        <ExampleSquare
-          projectTitle="Personal Work"
-          description_p1="Mostly sketches and simple digital concepts"
-          destinationPage="/personalWork"
-          imgSrc={personalWorkImg}
         />
       </div>
     </div>

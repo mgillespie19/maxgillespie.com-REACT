@@ -14,9 +14,9 @@ const IndexPage = () => (
       <div>
         <h1> Curro </h1>
         <p>
-          Curro is an app that allows running teams and invidiuals to easily
-          track and log runs while building a community with other users: either
-          both teammates and independent runners!
+          Curro is a project from a class that I took at Washington University in
+          St. Louis that allows running teams and invidiuals to easily
+          track and log runs while building a community with other users.
         </p>
 
         <h2> role </h2>
@@ -25,9 +25,18 @@ const IndexPage = () => (
           with another teammate to brainstorm MVP user interface / experience features,
           conduct user tests, and implement our designs.
         </p>
+
+        <a 
+            className="pdfButton"
+            href="https://apps.apple.com/us/app/curro-activity-logger/id1503599546?ls=1"
+            rel="noopener noreferrer"
+            target="_blank"
+        >Download on the iOS App Store</a>
       </div>
 
-      <img id="runTrackerIcon" className="threeQuartersImage" src={icon} />
+      <div>
+        <img id="runTrackerIcon" className="threeQuartersImage" src={icon} />
+      </div>
     </div>
 
     <h2> inspiration </h2>
@@ -95,7 +104,13 @@ const IndexPage = () => (
                 SwiftUI, Swift
               </li>
               <li>
-                Amazon AWS, Amazon Amplify
+                TestFlight
+              </li>
+              <li>
+                GraphQL
+              </li>
+              <li>
+                Amazon Web Services (Amplify, Cognito, DynamoDB)
               </li>
               <li>
                 Adobe Illustrator
