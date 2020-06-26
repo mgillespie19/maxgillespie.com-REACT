@@ -23,17 +23,17 @@ const IndexPage = () => (
     <div className="row2">
       <div id="description">
         <p>
-          I love storytelling – from personal youtube videos to serialized
-          brand documentaries to apps on the Apple App Store and Google Play
+          I love creating a story – from personal youtube videos to serialized
+          documentaries to apps on the Apple App Store and Google Play
           Store, I can't get enough of the process of taking an idea from
           concept to execution.
         </p>
 
         <p>
-          I particularly love working with brands to create the UI/UX design
-          for a product, then develop it and bring it to market. I also love
-          helping people find their or their brand's most authenic selves
-          through meaningful marketing and storytelling.
+          I love helping people find their or their brand's most authenic selves
+          through meaningful marketing and storytelling, and have a 
+          particular passion for working with brands to create the UI/UX design
+          for a product, then develop it and bring it to market. 
         </p>
 
         <p>

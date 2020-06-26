@@ -51,22 +51,33 @@ const IndexPage = () => (
         build something better.
       </p>
 
-    <h2> brainstorming </h2>
-
-    <p>
-      We wanted a platform that can begin as a tool for teams to log workouts and
-      help support each other, but which can grow into something more than that:
-      a place for athletes to build a community of people striving to be better
-      every day.
-    </p>
-
     <div className="twoColLayout">
       <div>
         <h3> brand identity </h3>
+          <p>
+            Honing the brand identity was a process that wasn't taken lightly, and we
+            spent multiple weeks iteratively honing how we wanted the product to be 
+            perceived by testing against multiple samples of our target users. 
+          </p>
+          
+          <p>
+            I love this graphic below because it perfectly captures our thought 
+            process from a bird's-eye view -- from initial concept, all the way 
+            to "aha" moment.
+          </p>
           <img className="twoColImage" src={logoDevelopment} />
       </div>
 
       <div>
+        <h3> brainstorming </h3>
+
+        <p>
+          We wanted a platform that can begin as a tool for teams to log workouts and
+          help support each other, but which can grow into something more than that:
+          a place for athletes to build a community of people striving to be better
+          every day.
+        </p>
+
         <h3> wireframes </h3>
           <p>
             We spent a considerable amount of time refining our vision for the product's
