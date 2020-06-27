@@ -61,10 +61,10 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
-          projectTitle="Simulpass"
-          description_p1="A current project developing an iOS app for a startup"
-          destinationPage="/simulpass"
-          imgSrc={simulpassImg}
+          projectTitle="Paint Chips"
+          description_p1="A color palette curation app"
+          destinationPage="/paintChips"
+          imgSrc={paintChips}
         />
         <ExampleSquare
           projectTitle="Curro"
@@ -73,10 +73,10 @@ const IndexPage = () => (
           imgSrc={runTrackerImg}
         />
         <ExampleSquare
-          projectTitle="Paint Chips"
-          description_p1="A color palette curation app"
-          destinationPage="/paintChips"
-          imgSrc={paintChips}
+          projectTitle="Simulpass"
+          description_p1="A current project developing an iOS app for a startup"
+          destinationPage="/simulpass"
+          imgSrc={simulpassImg}
         />
         <ExampleSquare
           projectTitle="Maven Machines"
@@ -95,18 +95,6 @@ const IndexPage = () => (
           description_p1="A sample magazine article I wrote about high speed rail"
           destinationPage="/highSpeedRail"
           imgSrc={popMechanics}
-        />
-        <ExampleSquare
-          projectTitle="myEHR"
-          description_p1="A class project using blockchain to help the healthcare system"
-          destinationPage="/myEHR"
-          imgSrc={myEHRImg}
-        />
-        <ExampleSquare
-          projectTitle="Walls 'n' Halls"
-          description_p1="A retro video game built with Unity"
-          destinationPage="/wallsNHalls"
-          imgSrc={wallsNHalls}
         />
       </div>
     </div>

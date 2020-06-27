@@ -11,12 +11,11 @@ const IndexPage = () => (
         <img src={portrait} />
       </div>
       <div id="hello">
-        <h1>  Hi, I'm Max.</h1>
-        <h1>  Currently a  </h1>
-        <h1> <b>senior</b> </h1>
-        <h1>  at Washington </h1>
-        <h1>  University </h1>
-        <h1>  in St. Louis</h1>
+        <h1> Hi, I'm Max. </h1>
+        <h1> I'm a software </h1>
+        <h1> engineer in</h1>
+        <h1> Pittsburgh, PA</h1>
+        <h1>  </h1>
       </div>
     </div>
 
