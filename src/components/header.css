@@ -1,17 +1,33 @@
 .Header {
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 20px;
+  display: table;
+  align-content: center;
+}
+
+#innerHeader {
+  display: table-row;
+}
+
+#leftBtn {
+  display: table-cell;
+  width:98%;
+}
+
+#rightBtn {
+  display: table-cell;
+  width:98%;
+  align-self: flex-end;
+
 }
 
 .Header a {
   color: #CCCCCC;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Titillium Web', sans-serif;
-  padding-left: 10px;
-}
-
-.Header img {
-  width: 70px;
-  margin-left: 3%;
+  font-size: 20pt;
+  padding: 2%;
+  align-self: center;
 }

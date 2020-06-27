@@ -22,14 +22,14 @@ const IndexPage = () => (
       This project is my first steps into being a part of that dialogue
     </p>
 
-    <h2> what is it? </h2>
+    <h2> WHAT IS IT? </h2>
     <p>
       This project is a physical product and content series I created in
       affiliation with <a href="https://armour.wustl.edu/" target="_blank"> Armour</a>, a
       super cool WashU student-run fashion magazine.
     </p>
 
-    <h2> concept development </h2>
+    <h2> CONCEPT DEVELOPMENT </h2>
     <p>
       <a
         className="pdfButton"
@@ -40,7 +40,7 @@ const IndexPage = () => (
       </a>
     </p>
 
-    <h2> technologies used </h2>
+    <h2> TECHNOLOGIES USED </h2>
     <ul>
       <li> Adobe Illustrator </li>
       <li> Adobe InDesign </li>

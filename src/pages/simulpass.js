@@ -15,7 +15,7 @@ const IndexPage = () => (
           the mission of bringing people together by making connections better.
         </p>
 
-        <h2> role </h2>
+        <h2> ROLE </h2>
         <p>
           Senior iOS Developer / Project Manager
         </p>
@@ -25,7 +25,7 @@ const IndexPage = () => (
       <img id="appIcon" className="threeQuartersImage" src={icon} />
     </div>
 
-    <h2> key deliverables </h2>
+    <h2> KEY DELIVERABLES </h2>
     <ul>
       <li> Work in agile development environment </li>
       <li> Architect and implement MVVM-based iOS application with SwiftUI </li>
@@ -41,7 +41,7 @@ const IndexPage = () => (
       </li>
     </ul>
 
-    <h2> technologies used </h2>
+    <h2> TECHNOLOGIES USED </h2>
     <ul>
       <li>
         Amazon Web Services

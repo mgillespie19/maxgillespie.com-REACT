@@ -36,7 +36,7 @@ const IndexPage = () => (
       <img id="appIcon" className="threeQuartersImage" src={icon} />
     </div>
 
-    <h2> inspiration </h2>
+    <h2> INSPIRATION </h2>
     <p>
         This app came out of the necessity for me to build color palettes combined with
         the lack of options I was satisfied with to do so.  
@@ -49,17 +49,17 @@ const IndexPage = () => (
 
     <div className="twoColLayout">
       <div>
-        <h2> cool stats </h2>
+        <h2> COOL STATS </h2>
         <p> 
-            downloads as of april 4, 2020: 48
+            Downloads as of June 26, 2020: 260
         </p>
         <p>
-            release date: march 27, 2020
+            Release date: march 27, 2020
         </p>
       </div>
 
       <div>
-          <h2> technologies used </h2>
+          <h2> TECHNOLOGIES USED </h2>
             <ul>
               <li>
                 XCode

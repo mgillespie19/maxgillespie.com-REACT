@@ -1,5 +1,9 @@
 body {
-  font-family: "Courier New", sans-serif;
+  font-family: interstate, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
   margin: 0;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;

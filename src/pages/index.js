@@ -25,11 +25,11 @@ const IndexPage = () => (
       </div>
 
       <div className="Summary">
-        <h1> developer </h1>
-        <h1> ui/ux designer </h1>
-        <h1> filmmaker </h1>
-        <h1> marketer </h1>
-        <h3> long-walk-on-the-beach taker </h3>
+        <h1> DEVELOPER </h1>
+        <h1> PRODUCT DESIGNER </h1>
+        <h1> FILMMAKER </h1>
+        <h1> MARKETER </h1>
+        <h3> long-walk-on-the-beach-taker </h3>
       </div>
 
       <div id="leftHead">
@@ -42,14 +42,14 @@ const IndexPage = () => (
     <div className="BottomHalf">
       <div className="QuickPreambleBody">
         <h1>
-          my work
+          MY WORK
         </h1>
         <p>
-          this is a collection of my work -- some of the things I'm passionate about,
+          This is a collection of my work -- some of the things I'm passionate about,
           proud to have worked on, or am otherwise excited to share.
         </p>
         <p>
-          if you like what you see, and are interested in working together on a project,
+          If you like what you see, and are interested in working together on a project,
           check out <Link to="/about"> <b> contact </b> </Link> in my about section,
           or head over to <a href="https://www.paisleydesign.group" target="_blank"> <b> my contracting company </b> </a>
         </p>

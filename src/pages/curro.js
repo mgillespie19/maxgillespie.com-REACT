@@ -19,7 +19,7 @@ const IndexPage = () => (
           track and log runs while building a community with other users.
         </p>
 
-        <h2> role </h2>
+        <h2> ROLE </h2>
         <p>
           I am a UX Designer and Software Developer for this project. I am working
           with another teammate to brainstorm MVP user interface / experience features,
@@ -39,7 +39,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <h2> inspiration </h2>
+    <h2> INSPIRATION </h2>
       <p>
         Curro is a project for a class where students break into
         teams and are expected to publish an application on the app store.
@@ -53,7 +53,7 @@ const IndexPage = () => (
 
     <div className="twoColLayout">
       <div>
-        <h3> brand identity </h3>
+        <h3> BRAND IDENTITY </h3>
           <p>
             Honing the brand identity was a process that wasn't taken lightly, and we
             spent multiple weeks iteratively honing how we wanted the product to be 
@@ -69,7 +69,7 @@ const IndexPage = () => (
       </div>
 
       <div>
-        <h3> brainstorming </h3>
+        <h3> BRAINSTORMING </h3>
 
         <p>
           We wanted a platform that can begin as a tool for teams to log workouts and
@@ -78,7 +78,7 @@ const IndexPage = () => (
           every day.
         </p>
 
-        <h3> wireframes </h3>
+        <h3> WIREFRAMES </h3>
           <p>
             We spent a considerable amount of time refining our vision for the product's
             UI. Some of our constraints were:
@@ -93,7 +93,7 @@ const IndexPage = () => (
 
           <img className="twoColImage" src={whiteBoard1} />
 
-          <h2> pitch deck </h2>
+          <h2> PITCH DECK </h2>
           <p>
             We pitched the idea to our class and professor before starting
             development
@@ -106,7 +106,7 @@ const IndexPage = () => (
             our pitch deck
           </a>
 
-          <h2> technologies used </h2>
+          <h2> TECHNOLOGIES USED </h2>
             <ul>
               <li>
                 XCode

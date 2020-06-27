@@ -20,7 +20,7 @@ const IndexPage = () => (
   <div className="WorkDetail">
     <h1> The Future of Transportation </h1>
 
-    <h2> inspiration </h2>
+    <h2> INSPIRATION </h2>
     <p>
       The following work is my final project for a class I took called Technical
       Writing during the fall semester of my senior year at Washington
@@ -32,7 +32,7 @@ const IndexPage = () => (
       physical that we could hold.
     </p>
 
-    <h2> what is it? </h2>
+    <h2> WHAT IS IT? </h2>
     <p>
       I made a mock magazine article for a magazine called Popular Mechanics
        -- I wrote about the future of high speed rail and green transportation
@@ -67,7 +67,7 @@ const IndexPage = () => (
       <img className="page" src={p11} />
     </div>
 
-    <h2> technologies used </h2>
+    <h2> TECHNOLOGIES USED </h2>
     <ul>
       <li>
         Adobe InDesign

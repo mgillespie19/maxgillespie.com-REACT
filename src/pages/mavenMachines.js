@@ -29,7 +29,7 @@ const IndexPage = () => (
       <img src={tabletImage} />
     </div>
 
-    <h2> responsibilities </h2>
+    <h2> RESPONSIBILITIES </h2>
     <ul>
       <li>
         Worked in an agile development environment on the Android Application team
@@ -55,7 +55,7 @@ const IndexPage = () => (
       <img src={screen3} />
     </div>
 
-    <h2> technologies used </h2>
+    <h2> TECHNOLOGIES USED </h2>
     <ul>
       <li>
         Android Studio

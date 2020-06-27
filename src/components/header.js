@@ -6,9 +6,10 @@ import logo from '../assets/logo-header.png'
 
 const Header = ({ siteTitle }) => (
   <div className="Header">
-    <img src={logo} />
-    <Link to="/"> WORK </Link>
-    <Link to="/about"> ABOUT </Link>
+    <div id="innerHeader">
+      <Link to="/" id="leftBtn"> WORK </Link>
+      <Link to="/about" id="rightBtn"> ABOUT </Link>
+    </div>
   </div>
 )
 
