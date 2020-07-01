@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import '../layouts/about.css'
 
-import portrait from '../assets/me-plusme.png'
+import portrait from '../assets/me.png'
 
 const IndexPage = () => (
   <div className="Landing-about">

@@ -61,6 +61,12 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
+          projectTitle="Maven Machines"
+          description_p1="My Android Internship at a Pittsburgh startup"
+          destinationPage="/mavenMachines"
+          imgSrc={mavenImg}
+        />
+        <ExampleSquare
           projectTitle="Paint Chips"
           description_p1="A color palette curation app"
           destinationPage="/paintChips"
@@ -77,12 +83,6 @@ const IndexPage = () => (
           description_p1="A current project developing an iOS app for a startup"
           destinationPage="/simulpass"
           imgSrc={simulpassImg}
-        />
-        <ExampleSquare
-          projectTitle="Maven Machines"
-          description_p1="My Android Internship at a Pittsburgh startup"
-          destinationPage="/mavenMachines"
-          imgSrc={mavenImg}
         />
         <ExampleSquare
           projectTitle="The Green Shoe Project"
