@@ -13,9 +13,9 @@ const IndexPage = () => (
       <div id="hello">
         <h1> Hi, I'm Max. </h1>
         <h1> I'm a software </h1>
-        <h1> engineer in</h1>
+        <h1> engineer & </h1>
+        <h1> founder in </h1>
         <h1> Pittsburgh, PA</h1>
-        <h1>  </h1>
       </div>
     </div>
 

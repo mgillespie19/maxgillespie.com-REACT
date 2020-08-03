@@ -11,7 +11,7 @@ import testflightImg from '../assets/testflight-logo.png'
 import rainBow from '../assets/colorstrip.png'
 import popMechanics from '../assets/Pop_Mechanics_Pilot.png'
 import paintChips from '../assets/PaintChips.png'
-import wallsNHalls from '../assets/walls_n_halls.png'
+import paisleyLogo from '../assets/Paisley Design Group logo.png'
 import simulpassImg from '../assets/Simulpass.png'
 import runTrackerImg from '../assets/run tracker logo.png'
 import greenShoeThumb from '../assets/greenShoeThumb.png'
@@ -61,40 +61,52 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
+          projectTitle="Paisley Design Group"
+          description_p1="Digital consulting firm of the future."
+          destinationPage="/paisleyDesignGroup"
+          imgSrc={paisleyLogo}
+        />
+        <ExampleSquare
           projectTitle="Maven Machines"
-          description_p1="My Android Internship at a Pittsburgh startup"
-          destinationPage="/mavenMachines"
+          description_p1="Full time work as a product designer & engineer."
+          destinationPage="/mavenMachinesFullTime"
           imgSrc={mavenImg}
         />
         <ExampleSquare
           projectTitle="Paint Chips"
-          description_p1="A color palette curation app"
+          description_p1="Color palettes made easy."
           destinationPage="/paintChips"
           imgSrc={paintChips}
         />
         <ExampleSquare
           projectTitle="Curro"
-          description_p1="An iOS app by runners, for runners"
+          description_p1="Team building for college sports."
           destinationPage="/curro"
           imgSrc={runTrackerImg}
         />
         <ExampleSquare
           projectTitle="Simulpass"
-          description_p1="A current project developing an iOS app for a startup"
+          description_p1="iOS development work for a startup."
           destinationPage="/simulpass"
           imgSrc={simulpassImg}
         />
         <ExampleSquare
           projectTitle="The Green Shoe Project"
-          description_p1="A sustainable fashion project"
+          description_p1="Sustainable fashion for everybody."
           destinationPage="/greenShoeProject"
           imgSrc={greenShoeThumb}
         />
         <ExampleSquare
           projectTitle="The Future of Transportation"
-          description_p1="A sample magazine article I wrote about high speed rail"
+          description_p1="Sample magazine article about high speed rail."
           destinationPage="/highSpeedRail"
           imgSrc={popMechanics}
+        />
+        <ExampleSquare
+          projectTitle="Maven Machines"
+          description_p1="Summer 2019 internship at a startup in Pittsburgh."
+          destinationPage="/mavenMachinesInternship"
+          imgSrc={mavenImg}
         />
       </div>
     </div>
