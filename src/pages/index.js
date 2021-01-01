@@ -51,7 +51,7 @@ const IndexPage = () => (
         <p>
           If you like what you see, and are interested in working together on a project,
           check out <Link to="/about"> <b> contact </b> </Link> in my about section,
-          or head over to <a href="https://www.paisleydesign.group" target="_blank"> <b> my contracting company </b> </a>
+          or head over to <a href="https://www.thepaisleydesigngroup.com" target="_blank"> <b> my contracting company </b> </a>
         </p>
       </div>
 
@@ -90,23 +90,17 @@ const IndexPage = () => (
           destinationPage="/simulpass"
           imgSrc={simulpassImg}
         />
-        <ExampleSquare
+        {/* <ExampleSquare
           projectTitle="The Green Shoe Project"
           description_p1="Sustainable fashion for everybody."
           destinationPage="/greenShoeProject"
           imgSrc={greenShoeThumb}
-        />
+        /> */}
         <ExampleSquare
           projectTitle="The Future of Transportation"
           description_p1="Sample magazine article about high speed rail."
           destinationPage="/highSpeedRail"
           imgSrc={popMechanics}
-        />
-        <ExampleSquare
-          projectTitle="Maven Machines"
-          description_p1="Summer 2019 internship at a startup in Pittsburgh."
-          destinationPage="/mavenMachinesInternship"
-          imgSrc={mavenImg}
         />
       </div>
     </div>
