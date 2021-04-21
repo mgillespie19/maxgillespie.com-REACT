@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import '../layouts/workLayout.css'
 import '../layouts/highSpeedRail.css'
+
 import p1 from '../assets/FutureOfTransport/FutureOfTransport_p1.png'
 import p2 from '../assets/FutureOfTransport/FutureOfTransport_p2.png'
 import p3 from '../assets/FutureOfTransport/FutureOfTransport_p3.png'
@@ -52,8 +52,24 @@ const IndexPage = () => (
       </a>
     </p>
 
+    {/* <div className="slide-container">
+        <Slide>
+          <div className="each-slide">
+            <img src={p1} />
+            <span>Slide 1</span>
+          </div>
+          <div className="each-slide">
+            <img src={p2} />
+            <span>Slide 2</span>
+          </div>
+          <div className="each-slide">
+            <img src={p3} />
+            <span>Slide 3</span>
+          </div>
+        </Slide>
+      </div> */}
 
-    <div className="futureOfTransportMagazinePages">
+    {/* <div className="futureOfTransportMagazinePages">
       <img className="page" src={p1} />
       <img className="page" src={p2} />
       <img className="page" src={p3} />
@@ -65,7 +81,7 @@ const IndexPage = () => (
       <img className="page" src={p9} />
       <img className="page" src={p10} />
       <img className="page" src={p11} />
-    </div>
+    </div> */}
 
     <h2> TECHNOLOGIES USED </h2>
     <ul>
@@ -76,7 +92,6 @@ const IndexPage = () => (
         Adobe Illustrator
       </li>
     </ul>
-
   </div>
 )
 

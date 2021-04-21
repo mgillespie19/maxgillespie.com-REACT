@@ -51,7 +51,7 @@ const IndexPage = () => (
       <div>
         <h2> COOL STATS </h2>
         <p> 
-            Downloads as of June 26, 2020: 260
+            Downloads as of april 21, 2021: 1,750
         </p>
         <p>
             Release date: march 27, 2020

@@ -15,6 +15,7 @@ import paisleyLogo from '../assets/Paisley Design Group logo.png'
 import simulpassImg from '../assets/Simulpass.png'
 import runTrackerImg from '../assets/run tracker logo.png'
 import greenShoeThumb from '../assets/greenShoeThumb.png'
+import skillshare from '../assets/skillshare.png'
 import ExampleSquare from '../components/exampleSquare'
 
 const IndexPage = () => (
@@ -97,6 +98,12 @@ const IndexPage = () => (
           imgSrc={greenShoeThumb}
         /> */}
         <ExampleSquare
+          projectTitle="Skillshare"
+          description_p1=""
+          destinationPage="/skillshare"
+          imgSrc={skillshare}
+        />
+        <ExampleSquare
           projectTitle="The Future of Transportation"
           description_p1="Sample magazine article about high speed rail."
           destinationPage="/highSpeedRail"
@@ -106,8 +113,8 @@ const IndexPage = () => (
     </div>
 
     <div className="Footer">
-      <p> © 2020 MAX GILLESPIE </p>
-      <p> 44 THORN ST. </p>
+      <p> © 2021 MAX GILLESPIE </p>
+      <p> 44 THORN ST </p>
       <p> SEWICKLEY PA 15143</p>
       <p> INQUIRIES: MAX@MAXGILLESPIE.COM </p>
     </div>
