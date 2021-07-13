@@ -62,52 +62,40 @@ const IndexPage = () => (
 
       <div className="WorkRowOne">
         <ExampleSquare
-          projectTitle="Paisley Design Group"
-          description_p1="Digital consulting firm of the future."
-          destinationPage="/paisleyDesignGroup"
-          imgSrc={paisleyLogo}
+            projectTitle="Paisley Design Group"
+            description_p1="Digital consulting firm of the future."
+            destinationPage="/paisleyDesignGroup"
+            imgSrc={paisleyLogo}
         />
         <ExampleSquare
-          projectTitle="Maven Machines"
-          description_p1="Full time work as a product designer & engineer."
-          destinationPage="/mavenMachinesFullTime"
-          imgSrc={mavenImg}
+            projectTitle="Paint Chips"
+            description_p1="Color palettes made easy."
+            destinationPage="/paintChips"
+            imgSrc={paintChips}
         />
         <ExampleSquare
-          projectTitle="Paint Chips"
-          description_p1="Color palettes made easy."
-          destinationPage="/paintChips"
-          imgSrc={paintChips}
+            projectTitle="Maven Machines"
+            description_p1="Full time work as a product designer & engineer."
+            destinationPage="/mavenMachinesFullTime"
+            imgSrc={mavenImg}
         />
         <ExampleSquare
-          projectTitle="Curro"
-          description_p1="Team building for college sports."
-          destinationPage="/curro"
-          imgSrc={runTrackerImg}
-        />
-        <ExampleSquare
-          projectTitle="Simulpass"
-          description_p1="iOS development work for a startup."
-          destinationPage="/simulpass"
-          imgSrc={simulpassImg}
+            projectTitle="Curro"
+            description_p1="Team building for college sports."
+            destinationPage="/curro"
+            imgSrc={runTrackerImg}
         />
         {/* <ExampleSquare
-          projectTitle="The Green Shoe Project"
-          description_p1="Sustainable fashion for everybody."
-          destinationPage="/greenShoeProject"
-          imgSrc={greenShoeThumb}
+            projectTitle="Skillshare"
+            description_p1=""
+            destinationPage="/skillshare"
+            imgSrc={skillshare}
         /> */}
         <ExampleSquare
-          projectTitle="Skillshare"
-          description_p1=""
-          destinationPage="/skillshare"
-          imgSrc={skillshare}
-        />
-        <ExampleSquare
-          projectTitle="The Future of Transportation"
-          description_p1="Sample magazine article about high speed rail."
-          destinationPage="/highSpeedRail"
-          imgSrc={popMechanics}
+            projectTitle="The Future of Transportation"
+            description_p1="Sample magazine article about high speed rail."
+            destinationPage="/highSpeedRail"
+            imgSrc={popMechanics}
         />
       </div>
     </div>

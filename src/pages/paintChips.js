@@ -29,7 +29,9 @@ const IndexPage = () => (
             href="https://apps.apple.com/us/app/paint-chips/id1502792725"
             rel="noopener noreferrer"
             target="_blank"
-        >Download on the iOS App Store</a>
+        >
+            Download on the iOS App Store
+        </a>
 
       </div>
 
@@ -45,36 +47,33 @@ const IndexPage = () => (
         My vision was to build a super-simple product that could empower its users to
     </p>
 
-    {/* <h2> in the app </h2> */}
 
-    <div className="twoColLayout">
-      <div>
-        <h2> COOL STATS </h2>
+    <div>
+        <h2> RANDOM STUFF </h2>
         <p> 
-            Downloads as of april 21, 2021: 1,750
+            Downloads as of July 2021: 2,260
         </p>
         <p>
-            Release date: march 27, 2020
+            Released: March 2020
         </p>
-      </div>
+    </div>
 
-      <div>
-          <h2> TECHNOLOGIES USED </h2>
-            <ul>
-              <li>
-                XCode
-              </li>
-              <li>
-                SwiftUI, Swift
-              </li>
-              <li>
-                Amazon AWS, Amazon Amplify
-              </li>
-              <li>
-                Adobe Illustrator
-              </li>
-            </ul>
-      </div>
+    <div>
+        <h2> TECHNOLOGIES USED </h2>
+        <ul>
+            <li>
+            XCode
+            </li>
+            <li>
+            SwiftUI, Swift
+            </li>
+            <li>
+            Amazon AWS, Amazon Amplify
+            </li>
+            <li>
+            Adobe Illustrator
+            </li>
+        </ul>
     </div>
   </div>
 )
