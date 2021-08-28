@@ -102,8 +102,8 @@ const IndexPage = () => (
 
     <div className="Footer">
       <p> © 2021 MAX GILLESPIE </p>
-      <p> 44 THORN ST </p>
-      <p> SEWICKLEY PA 15143</p>
+      <p> 54 RAINEY ST </p>
+      <p> AUSTIN TX 78701 </p>
       <p> INQUIRIES: MAX@MAXGILLESPIE.COM </p>
     </div>
   </div>
